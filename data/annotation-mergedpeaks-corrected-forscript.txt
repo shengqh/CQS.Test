@@ -1,0 +1,7 @@
+PeakID (cmd=macs-mergedpeak_regions.txt mm9)	Chr	Start	End	Strand	Annotation	Detailed Annotation
+macs-mtgr1-eto2-1094	chr3	51492749	51492837	+	"3' UTR (NM_001004176, exon 5 of 5)"	"3' UTR (NM_001004176, exon 5 of 5)"										
+macs-mtgr1-eto2-762	chr17	49597299	49597387	+	"3' UTR (NM_001008231, exon 26 of 26)"	"3' UTR (NM_001008231, exon 26 of 26)"										
+macs-mtgr1-eto2-723	chr17	26079869	26079957	+	"3' UTR (NM_001039038, exon 2 of 2)"	"3' UTR (NM_001039038, exon 2 of 2)"										
+macs-mtgr1-eto2-28	chr1	64780219	64780307	+	"3' UTR (NM_001042659, exon 2 of 2)"	"3' UTR (NM_001042659, exon 2 of 2)"										
+macs-mtgr1-eto2-895	chr19	46962792	46962880	+	"3' UTR (NM_001164365, exon 18 of 18)"	"3' UTR (NM_001164365, exon 18 of 18)"										
+macs-mtgr1-eto2-1161	chr3	120904086	120904174	+	TTS (NM_178936)	TTS (NM_178936)										

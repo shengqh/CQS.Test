@@ -1,0 +1,10 @@
+Func,Gene,ExonicFunc,AAChange,Conserved,SegDup,ESP6500si_ALL,1000g2012apr_ALL,dbSNP137,AVSIFT,LJB_PhyloP,LJB_PhyloP_Pred,LJB_SIFT,LJB_SIFT_Pred,LJB_PolyPhen2,LJB_PolyPhen2_Pred,LJB_LRT,LJB_LRT_Pred,LJB_MutationTaster,LJB_MutationTaster_Pred,LJB_GERP++,Chr,Start,End,Ref,Obs,Otherinfo
+"intergenic","OR4F3(dist=196024),OR4F29(dist=56475)",,,,"1.00",,,rs10458597,,,,,,,,,,,,,1,564621,564621,C,T,
+"UTR3","ICMT",,,,,,,,,,,,,,,,,,,,1,6282324,6282324,T,C,
+"UTR5","PGD",,,,,,,,,,,,,,,,,,,,1,10459161,10459161,C,G,
+"UTR3","PIGV",,,,,,0.04,rs57189461,,,,,,,,,,,,,1,27124545,27124545,A,G,
+"UTR3","EPB41",,,,,,0.03,rs554820,,,,,,,,,,,,,1,29445403,29445403,C,G,
+"UTR3","NSUN4",,,,,,0.38,rs10252,,,,,,,,,,,,,1,46830430,46830430,G,A,
+"exonic","TGFBR3","nonsynonymous SNV","TGFBR3:NM_001195683:exon16:c.T2357C:p.V786A,TGFBR3:NM_003243:exon16:c.T2360C:p.V787A,TGFBR3:NM_001195684:exon17:c.T2357C:p.V786A","456;Name=lod=95",,,,,0,0.998382,C,1.0,D,0.98,D,1.0,D,0.996426,D,5.04,1,92161306,92161306,A,G,
+"intergenic","FRRS1(dist=58200),AGL(dist=26091)",,,,"0.97",,,,,,,,,,,,,,,,1,100289549,100289549,T,A,
+"exonic","KIAA1324","synonymous SNV","KIAA1324:NM_001267049:exon7:c.T987C:p.T329T,KIAA1324:NM_001267048:exon13:c.T1776C:p.T592T,KIAA1324:NM_020775:exon15:c.T2037C:p.T679T",,,0.667999,0.76,rs2359244,,,,,,,,,,,,,1,109737132,109737132,T,C,

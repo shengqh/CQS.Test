@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DED7C2E5-AC9F-42D0-9A67-574C89D883F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CQS</RootNamespace>
+    <AssemblyName>CQS.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|AnyCPU'">
+    <OutputPath>bin\Win32\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|x64'">
+    <OutputPath>bin\x64\Win32\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accord.Statistics, Version=2.8.1.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Accord.Statistics.2.8.1.0\lib\Accord.Statistics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\packages\MathNet.Numerics.2.4.0\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics.IO">
+      <HintPath>..\packages\MathNet.Numerics.2.4.0\lib\net40\MathNet.Numerics.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BreastCancer\TestBreastCancerSampleItemFormat.cs" />
+    <Compile Include="Converter\TestConverterUtils.cs" />
+    <Compile Include="Genome\Annotation\TestAnnovarSummaryItemListReader.cs" />
+    <Compile Include="Genome\Annotation\TestAnnovarVariantItemReader.cs" />
+    <Compile Include="Genome\Annotation\TestAnnovarExonicVariantItemReader.cs" />
+    <Compile Include="Genome\Bed\TestBedItemFile.cs" />
+    <Compile Include="Genome\Bed\TestMatchedBedItem.cs" />
+    <Compile Include="Genome\Bed\TestMatchedBedItemFile.cs" />
+    <Compile Include="Genome\CNV\TestExomeDepthReader.cs" />
+    <Compile Include="Genome\CNV\TestExomeCopyReader.cs" />
+    <Compile Include="Genome\CNV\TestFreecReader.cs" />
+    <Compile Include="Genome\CNV\TestCnvnatorItemExtension.cs" />
+    <Compile Include="Genome\CNV\TestCnvnatorReader.cs" />
+    <Compile Include="Genome\CNV\TestConiferReader.cs" />
+    <Compile Include="Genome\CNV\TestCGHReader.cs" />
+    <Compile Include="Genome\Dbsnp\TestDbsnpVcfFile.cs" />
+    <Compile Include="Genome\Gtf\TestGtfItemFile.cs" />
+    <Compile Include="Genome\Gtf\TestGtfItem.cs" />
+    <Compile Include="Genome\Gtf\TestGtfTranscriptItem.cs" />
+    <Compile Include="Genome\Gtf\TestGtfTranscriptItemFile.cs" />
+    <Compile Include="Genome\Pileup\TestPileupItemFile.cs" />
+    <Compile Include="Genome\Pileup\TestPileupItemFisherExactTester.cs" />
+    <Compile Include="Genome\Pileup\TestPileupItemParser.cs" />
+    <Compile Include="Genome\Pileup\TestPileupItemPercentageTest.cs" />
+    <Compile Include="Genome\QC\TestFastQCItem.cs" />
+    <Compile Include="Genome\QC\TestFastQCBasicStatisticItem.cs" />
+    <Compile Include="Genome\QC\TestRNASeQCItemReader.cs" />
+    <Compile Include="Genome\Rnaediting\TestDarnedReader.cs" />
+    <Compile Include="Genome\TestMatchExon.cs" />
+    <Compile Include="Genome\Tophat\TestTophatInsertionDeletionBedReader.cs" />
+    <Compile Include="Genome\Tophat\TestTophatJunctionBedReader.cs" />
+    <Compile Include="Genome\Tophat\TestMutationItemFileReader.cs" />
+    <Compile Include="Genome\Tophat\TestMutationRecordFileReader.cs" />
+    <Compile Include="GroSeq\TestPeakAnnotationItemFormat.cs" />
+    <Compile Include="GroSeq\TestPearsonCorrelationCalculator.cs" />
+    <Compile Include="Microarray\Affymatrix\TestCelFile.cs" />
+    <Compile Include="Statistics\TestMyFisherExactTest.cs" />
+    <Compile Include="TCGA\Microarray\TestLevel3MicroarrayDataTxtReader.cs" />
+    <Compile Include="TCGA\TCGATechnologyImpl\TestTCGATechnologyRNAseqV1.cs" />
+    <Compile Include="TCGA\TCGATechnologyImpl\TestTCGATechnologyRNAseqV2.cs" />
+    <Compile Include="TCGA\TCGATechnologyImpl\TestFindParticipantSNP.cs" />
+    <Compile Include="TCGA\TCGATechnologyImpl\TestFindParticipantProtein.cs" />
+    <Compile Include="TCGA\TCGATechnologyImpl\TestFindParticipantMicroarray.cs" />
+    <Compile Include="TCGA\TCGATechnologyImpl\TestFindParticipantRnaSeq.cs" />
+    <Compile Include="TCGA\TestManifestReader.cs" />
+    <Compile Include="TCGA\TestTabMapReader.cs" />
+    <Compile Include="TestChipSeqItemFormat.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestLocation.cs" />
+    <Compile Include="TestStringExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CQS.Core\CQS.Core.csproj">
+      <Project>{6F5F9358-562B-4150-ACC4-5C220C2C3CEE}</Project>
+      <Name>CQS.Core</Name>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+    <ProjectReference Include="..\RCPA.Core\RCPA.Core.csproj">
+      <Project>{594B9AF6-4E27-4230-A60A-1B61FA3171F9}</Project>
+      <Name>RCPA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Genome\Refseq\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
