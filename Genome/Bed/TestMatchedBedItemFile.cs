@@ -17,9 +17,9 @@ namespace CQS.Genome.Bed
       {
         var item = file.Next();
 
-        Assert.AreEqual("2", item.Chrom);
-        Assert.AreEqual(73470225, item.ChromStart);
-        Assert.AreEqual(73470251, item.ChromEnd);
+        Assert.AreEqual("2", item.Seqname);
+        Assert.AreEqual(73470225, item.Start);
+        Assert.AreEqual(73470251, item.End);
         Assert.AreEqual("2-60", item.Name);
         Assert.AreEqual(1064, item.Score);
         Assert.AreEqual('+', item.Strand);

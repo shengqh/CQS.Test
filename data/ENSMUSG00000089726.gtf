@@ -1,0 +1,8 @@
+chr14	lincRNA	exon	115042879	115042957	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000134140"; exon_number "1"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-001";
+chr14	lincRNA	exon	115043271	115046727	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000134140"; exon_number "2"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-001";
+chr14	lincRNA	exon	115043671	115043754	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000146798"; exon_number "1"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-002";
+chr14	lincRNA	exon	115043851	115043946	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000146798"; exon_number "2"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-002";
+chr14	lincRNA	exon	115044000	115044081	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000146798"; exon_number "3"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-002";
+chr14	lincRNA	exon	115044157	115044263	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000146798"; exon_number "4"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-002";
+chr14	lincRNA	exon	115044305	115044391	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000146798"; exon_number "5"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-002";
+chr14	lincRNA	exon	115044427	115044506	.	+	.	 gene_id "ENSMUSG00000089726"; transcript_id "ENSMUST00000146798"; exon_number "6"; gene_name "Mir17hg"; gene_biotype "lincRNA"; transcript_name "Mir17hg-002";

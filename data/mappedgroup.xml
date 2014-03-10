@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <queries>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1208:15663:51477" sequence="ATCACATTGTCAGGGAT" count="2">
+      <location seqname="1" start="204883784" end="204883800" strand="+" cigar="17M" score="1" mdz="13A3" nmi="1" />
+      <location seqname="1" start="231659895" end="231659911" strand="+" cigar="17M" score="1" mdz="14C2" nmi="1" />
+      <location seqname="10" start="11630744" end="11630760" strand="+" cigar="17M" score="1" mdz="16A0" nmi="1" />
+      <location seqname="10" start="130590048" end="130590064" strand="+" cigar="17M" score="1" mdz="4A12" nmi="1" />
+      <location seqname="11" start="43096306" end="43096322" strand="-" cigar="17M" score="1" mdz="5A11" nmi="1" />
+      <location seqname="11" start="94429601" end="94429617" strand="-" cigar="17M" score="1" mdz="8G8" nmi="1" />
+      <location seqname="13" start="49499657" end="49499673" strand="-" cigar="17M" score="1" mdz="3T13" nmi="1" />
+      <location seqname="13" start="70048464" end="70048480" strand="-" cigar="17M" score="1" mdz="6A10" nmi="1" />
+      <location seqname="14" start="96118427" end="96118443" strand="-" cigar="17M" score="1" mdz="5A11" nmi="1" />
+      <location seqname="19" start="13947413" end="13947429" strand="-" cigar="17M" score="1" mdz="7G9" nmi="1" />
+      <location seqname="2" start="67895710" end="67895726" strand="-" cigar="17M" score="1" mdz="15C1" nmi="1" />
+      <location seqname="2" start="81009188" end="81009204" strand="+" cigar="17M" score="1" mdz="1G15" nmi="1" />
+      <location seqname="3" start="67321785" end="67321801" strand="+" cigar="17M" score="1" mdz="14C2" nmi="1" />
+      <location seqname="5" start="78596929" end="78596945" strand="-" cigar="17M" score="1" mdz="8T8" nmi="1" />
+      <location seqname="5" start="139011083" end="139011099" strand="+" cigar="17M" score="1" mdz="15T1" nmi="1" />
+      <location seqname="8" start="72178402" end="72178418" strand="+" cigar="17M" score="1" mdz="14C2" nmi="1" />
+      <location seqname="8" start="140313897" end="140313913" strand="+" cigar="17M" score="1" mdz="12T4" nmi="1" />
+      <location seqname="9" start="72140214" end="72140230" strand="-" cigar="17M" score="1" mdz="0T16" nmi="1" />
+      <location seqname="9" start="97847547" end="97847563" strand="+" cigar="17M" score="1" mdz="9C7" nmi="1" />
+      <location seqname="9" start="118521248" end="118521264" strand="-" cigar="17M" score="1" mdz="16C0" nmi="1" />
+    </query>
+  </queries>
+  <subjectResult>
+    <subjectGroup>
+      <subject name="hsa-miR-23a-3p">
+        <region seqname="19" start="13947409" end="13947429" strand="-">
+          <query qname="HWI-ST508:279:D2BAFACXX:5:1208:15663:51477" loc="19:13947413-13947429:-" />
+        </region>
+      </subject>
+      <subject name="hsa-miR-23b-3p">
+        <region seqname="9" start="97847547" end="97847567" strand="+">
+          <query qname="HWI-ST508:279:D2BAFACXX:5:1208:15663:51477" loc="9:97847547-97847563:+" />
+        </region>
+        <region seqname="19" start="13947409" end="13947429" strand="-">
+          <query qname="HWI-ST508:279:D2BAFACXX:5:1208:15663:51477" loc="19:13947413-13947429:-" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-23a-3p-temp">
+        <region seqname="19" start="13947409" end="13947429" strand="-">
+          <query qname="HWI-ST508:279:D2BAFACXX:5:1208:15663:51477" loc="19:13947413-13947429:-" />
+        </region>
+      </subject>
+    </subjectGroup>
+  </subjectResult>
+</root>
+ 

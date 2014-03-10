@@ -27,7 +27,7 @@ namespace CQS.Genome.Pileup
 
       //The matched base from end of read
       Assert.AreEqual(StrandType.FORWARD, item.Samples[0][0].Strand);
-      Assert.AreEqual(EventType.MATCH, item.Samples[0][0].EventType);
+      Assert.AreEqual(AlignedEventType.MATCH, item.Samples[0][0].EventType);
       Assert.AreEqual(PositionType.END, item.Samples[0][0].Position);
       Assert.AreEqual("A", item.Samples[0][0].Event);
       Assert.AreEqual('<' - 33, item.Samples[0][0].Score);
@@ -37,7 +37,7 @@ namespace CQS.Genome.Pileup
       foreach (int i in new int[] { 1, 3 })
       {
         Assert.AreEqual(StrandType.FORWARD, item.Samples[0][i].Strand);
-        Assert.AreEqual(EventType.MATCH, item.Samples[0][i].EventType);
+        Assert.AreEqual(AlignedEventType.MATCH, item.Samples[0][i].EventType);
         Assert.AreEqual(PositionType.MIDDLE, item.Samples[0][i].Position);
         Assert.AreEqual("A", item.Samples[0][i].Event);
         Assert.AreEqual(0, item.Samples[0][i].ReadMappingQuality);
@@ -49,7 +49,7 @@ namespace CQS.Genome.Pileup
       foreach (int i in new int[] { 2, 5 })
       {
         Assert.AreEqual(StrandType.REVERSE, item.Samples[0][i].Strand);
-        Assert.AreEqual(EventType.MATCH, item.Samples[0][i].EventType);
+        Assert.AreEqual(AlignedEventType.MATCH, item.Samples[0][i].EventType);
         Assert.AreEqual(PositionType.MIDDLE, item.Samples[0][i].Position);
         Assert.AreEqual("A", item.Samples[0][i].Event);
         Assert.AreEqual(0, item.Samples[0][i].ReadMappingQuality);
@@ -59,7 +59,7 @@ namespace CQS.Genome.Pileup
 
       //The matched base from start of read
       Assert.AreEqual(StrandType.FORWARD, item.Samples[0][4].Strand);
-      Assert.AreEqual(EventType.MATCH, item.Samples[0][4].EventType);
+      Assert.AreEqual(AlignedEventType.MATCH, item.Samples[0][4].EventType);
       Assert.AreEqual(PositionType.START, item.Samples[0][4].Position);
       Assert.AreEqual("A", item.Samples[0][4].Event);
       Assert.AreEqual(';' - 33, item.Samples[0][4].Score);
@@ -68,7 +68,7 @@ namespace CQS.Genome.Pileup
       //The insertions and deletions had been ignored
       //The mismatched base
       Assert.AreEqual(StrandType.FORWARD, item.Samples[0][6].Strand);
-      Assert.AreEqual(EventType.MISMATCH, item.Samples[0][6].EventType);
+      Assert.AreEqual(AlignedEventType.MISMATCH, item.Samples[0][6].EventType);
       Assert.AreEqual(PositionType.MIDDLE, item.Samples[0][6].Position);
       Assert.AreEqual("G", item.Samples[0][6].Event);
       Assert.AreEqual('<' - 33, item.Samples[0][6].Score);
@@ -78,7 +78,7 @@ namespace CQS.Genome.Pileup
       //The matched bases from forward strand read
       foreach (int i in new int[] { 0, 1, 2, 3 })
       {
-        Assert.AreEqual(EventType.MATCH, item.Samples[1][i].EventType);
+        Assert.AreEqual(AlignedEventType.MATCH, item.Samples[1][i].EventType);
         Assert.AreEqual(PositionType.MIDDLE, item.Samples[1][i].Position);
         Assert.AreEqual("A", item.Samples[1][i].Event);
         Assert.AreEqual(0, item.Samples[1][i].ReadMappingQuality);
@@ -108,7 +108,7 @@ namespace CQS.Genome.Pileup
       foreach (int i in new int[] { 6, 8 })
       {
         Assert.AreEqual(StrandType.FORWARD, item.Samples[0][i].Strand);
-        Assert.AreEqual(EventType.INSERTION, item.Samples[0][i].EventType);
+        Assert.AreEqual(AlignedEventType.INSERTION, item.Samples[0][i].EventType);
         Assert.AreEqual(PositionType.MIDDLE, item.Samples[0][i].Position);
         Assert.AreEqual("+2AG", item.Samples[0][i].Event);
         Assert.AreEqual(0, item.Samples[0][i].Score);
@@ -119,7 +119,7 @@ namespace CQS.Genome.Pileup
       foreach (int i in new int[] { 7, 9 })
       {
         Assert.AreEqual(StrandType.REVERSE, item.Samples[0][i].Strand);
-        Assert.AreEqual(EventType.DELETION, item.Samples[0][i].EventType);
+        Assert.AreEqual(AlignedEventType.DELETION, item.Samples[0][i].EventType);
         Assert.AreEqual(PositionType.MIDDLE, item.Samples[0][i].Position);
         Assert.AreEqual("-2TC", item.Samples[0][i].Event);
         Assert.AreEqual(0, item.Samples[0][i].Score);
@@ -163,5 +163,17 @@ namespace CQS.Genome.Pileup
       item = parser.GetValue(errorline);
       Assert.AreEqual(2, item.Samples.Count);
     }
+
+    [Test]
+    public void TestErrorLine2()
+    {
+      var parser = new PileupItemParser(0, 0, true, true, false);
+
+      var errorline = "4\t86101\tG\t47\t,+1c,+1c,+1c.+1C.+1C,+1c..+1C.+1C.+1C,+1c.+1C,+1c.+1C.+1C$.+1C.+1C,+1c.+1C.+1C.+1C,+1c.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C,+1c.+1C.+1C.+1C.+1C,+1c,+1c,+1c.+1C,+1c,+1c,+1c.+1C.+1C^H,+1c\tBCDCDBDEECBCB?CCEDCECCC>?CA@3CCDACCC>>DBDAA?>@.\t37\t,+1c.+1C,+1c.+1C,+1c.+1C,+1c.+1C.+1C.+1C.+1C.+1C$,,.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C,+1c.+1C,+1c,+1c,+1c,+1c,+1c,+1c.+1C,+1c,+1c,+1c,+1c.+1C\tDCC;>DDC?CD3DD<D5DA=;?DF??BCB<6E=546>";
+      var item = parser.GetValue(errorline);
+      Assert.AreEqual(2, item.Samples.Count);
+    }
+
+    
   }
 }

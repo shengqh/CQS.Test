@@ -13,22 +13,20 @@ namespace CQS.Genome.Pileup
     [Test]
     public void TestAccept()
     {
-      var t = new PileupItemPercentageTest(0.1);
-      var f = new FisherExactTestResult()
-      {
-        FailedCount1 = 2,
-        SucceedCount1 = 18,
-        FailedCount2 = 0,
-        SucceedCount2 = 30
-      };
+      var t = new PileupItemTumorPercentageTest(0.1);
+      var f = new FisherExactTestResult();
+      f.Sample1.Failed = 2;
+      f.Sample1.Succeed = 18;
+      f.Sample2.Failed = 0;
+      f.Sample2.Succeed = 30;
 
       //only sample2 will be used to do the test
       Assert.IsFalse(t.Accept(f));
 
-      f.FailedCount1 = 1;
+      f.Sample1.Failed = 1;
       Assert.IsFalse(t.Accept(f));
 
-      f.FailedCount2 = 4;
+      f.Sample2.Failed = 4;
       Assert.IsTrue(t.Accept(f));
     }
   }

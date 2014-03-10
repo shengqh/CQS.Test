@@ -32,27 +32,6 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\x64\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
-    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutputPath>bin\x64\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
-    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
-    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|AnyCPU'">
     <OutputPath>bin\Win32\</OutputPath>
     <DefineConstants>
@@ -65,22 +44,25 @@
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|x64'">
-    <OutputPath>bin\x64\Win32\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
-    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\SQH.Lib\nunit.framework.dll</HintPath>
+    <Reference Include="Bio, Version=1.1.4482.26498, Culture=neutral, PublicKeyToken=13335e9abfbf69d0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SQH.Lib\Bio.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics, Version=2.6.1.30, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MathNet.Numerics.2.6.2\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics.IO">
+      <HintPath>..\packages\MathNet.Numerics.2.6.2\lib\net40\MathNet.Numerics.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -90,6 +72,9 @@
   <ItemGroup>
     <Compile Include="BreastCancer\TestBreastCancerSampleItemFormat.cs" />
     <Compile Include="Converter\TestConverterUtils.cs" />
+    <Compile Include="Extensions\TestSAMAlignedSequenceExtension.cs" />
+    <Compile Include="Genome\Annotation\TestAnnovarGenomeSummaryItem.cs" />
+    <Compile Include="Genome\Annotation\TestAnnovarGenomeSummaryItemReader.cs" />
     <Compile Include="Genome\Annotation\TestAnnovarSummaryItemListReader.cs" />
     <Compile Include="Genome\Annotation\TestAnnovarVariantItemReader.cs" />
     <Compile Include="Genome\Annotation\TestAnnovarExonicVariantItemReader.cs" />
@@ -103,20 +88,43 @@
     <Compile Include="Genome\CNV\TestCnvnatorReader.cs" />
     <Compile Include="Genome\CNV\TestConiferReader.cs" />
     <Compile Include="Genome\CNV\TestCGHReader.cs" />
+    <Compile Include="Genome\Cuffdiff\TestCuffdiffItem.cs" />
     <Compile Include="Genome\Dbsnp\TestDbsnpVcfFile.cs" />
+    <Compile Include="Genome\Annotation\TestGenebankFeature.cs" />
+    <Compile Include="Genome\Annotation\TestGenebankFormat.cs" />
+    <Compile Include="Genome\Gtf\TestGtf2BedGeneIdBuilder.cs" />
     <Compile Include="Genome\Gtf\TestGtfItemFile.cs" />
     <Compile Include="Genome\Gtf\TestGtfItem.cs" />
     <Compile Include="Genome\Gtf\TestGtfTranscriptItem.cs" />
     <Compile Include="Genome\Gtf\TestGtfTranscriptItemFile.cs" />
+    <Compile Include="Genome\Gtf\TestGtfUtils.cs" />
+    <Compile Include="Genome\Mapping\TestMappedItemGroupXmlFileFormat.cs" />
+    <Compile Include="Genome\Mapping\TestSAMAlignedItemCandidateBuilder.cs" />
+    <Compile Include="Genome\Mirna\TestMappedMiRNAXmlFileFormat.cs" />
+    <Compile Include="Genome\Mirna\TestCombinedSequence.cs" />
+    <Compile Include="Genome\Mirna\TestMappedMiRNAFileFormat.cs" />
+    <Compile Include="Genome\Mirna\TestMirnaUtils.cs" />
+    <Compile Include="Genome\Pileup\TestAlignedPositionMapBuilder.cs" />
+    <Compile Include="Genome\Pileup\TestPileupCount.cs" />
+    <Compile Include="Genome\Pileup\TestSomaticMutationPileupBuilder.cs" />
     <Compile Include="Genome\Pileup\TestPileupItemFile.cs" />
     <Compile Include="Genome\Pileup\TestPileupItemFisherExactTester.cs" />
     <Compile Include="Genome\Pileup\TestPileupItemParser.cs" />
     <Compile Include="Genome\Pileup\TestPileupItemPercentageTest.cs" />
+    <Compile Include="Genome\Plink\TestBedFile.cs" />
     <Compile Include="Genome\QC\TestFastQCItem.cs" />
     <Compile Include="Genome\QC\TestFastQCBasicStatisticItem.cs" />
     <Compile Include="Genome\QC\TestRNASeQCItemReader.cs" />
+    <Compile Include="Genome\QC\TestSamToolsStatItemReader.cs" />
     <Compile Include="Genome\Rnaediting\TestDarnedReader.cs" />
+    <Compile Include="Genome\Sam\TestBAMWindowReader.cs" />
+    <Compile Include="Genome\Sam\TestBwaFormat.cs" />
+    <Compile Include="Genome\Sam\TestCQSBAMParser.cs" />
+    <Compile Include="Genome\Sam\TestSAMAlignedItem.cs" />
+    <Compile Include="Genome\Sam\TestSAMUtils.cs" />
+    <Compile Include="Genome\Sam\TestTrimedSAMAlignedItem.cs" />
     <Compile Include="Genome\TestMatchExon.cs" />
+    <Compile Include="Genome\TestSequenceRegionUtils.cs" />
     <Compile Include="Genome\Tophat\TestTophatInsertionDeletionBedReader.cs" />
     <Compile Include="Genome\Tophat\TestTophatJunctionBedReader.cs" />
     <Compile Include="Genome\Tophat\TestMutationItemFileReader.cs" />
@@ -134,6 +142,7 @@
     <Compile Include="TCGA\TCGATechnologyImpl\TestFindParticipantRnaSeq.cs" />
     <Compile Include="TCGA\TestManifestReader.cs" />
     <Compile Include="TCGA\TestTabMapReader.cs" />
+    <Compile Include="TCGA\TestTCGAUtils.cs" />
     <Compile Include="TestChipSeqItemFormat.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestLocation.cs" />
@@ -153,6 +162,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Genome\Refseq\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

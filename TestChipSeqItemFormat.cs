@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
+using CQS.Genome.ChipSeq;
 using NUnit.Framework;
-using CQS.ChipSeq;
 
 namespace CQS
 {
@@ -13,7 +10,7 @@ namespace CQS
     public void TestRead()
     {
       var format = new ChipSeqItemFormat();
-      var items = format.ReadFromFile("../../data/ChipSeqComparisonResult.tsv");
+      List<ChipSeqItem> items = format.ReadFromFile("../../data/ChipSeqComparisonResult.tsv");
       Assert.AreEqual(2029, items.Count);
       Assert.AreEqual("chrI", items[0].Chromosome);
       Assert.AreEqual(151, items[0].Start);
@@ -23,7 +20,7 @@ namespace CQS
       Assert.AreEqual(37, items[0].ControlCount);
       Assert.AreEqual(6.5924354, items[0].EnrichmentFactor, 0.0000001);
       Assert.AreEqual("YAL067W-A", items[0].GeneSymbol);
-      Assert.AreEqual("YAL067W-A",items[0].LongestTranscript);
+      Assert.AreEqual("YAL067W-A", items[0].LongestTranscript);
       Assert.AreEqual("Upstream", items[0].OverlapType);
       Assert.AreEqual(-2130, items[0].DistanceToTSS);
     }
