@@ -56,6 +56,10 @@
     <Reference Include="MathNet.Numerics.IO">
       <HintPath>..\packages\MathNet.Numerics.2.6.2\lib\net40\MathNet.Numerics.IO.dll</HintPath>
     </Reference>
+    <Reference Include="Meta.Numerics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SQH.Lib\Meta.Numerics.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
@@ -92,12 +96,14 @@
     <Compile Include="Genome\Dbsnp\TestDbsnpVcfFile.cs" />
     <Compile Include="Genome\Annotation\TestGenebankFeature.cs" />
     <Compile Include="Genome\Annotation\TestGenebankFormat.cs" />
+    <Compile Include="Genome\Feature\TestGenomeFeature.cs" />
     <Compile Include="Genome\Gtf\TestGtf2BedGeneIdBuilder.cs" />
     <Compile Include="Genome\Gtf\TestGtfItemFile.cs" />
     <Compile Include="Genome\Gtf\TestGtfItem.cs" />
     <Compile Include="Genome\Gtf\TestGtfTranscriptItem.cs" />
     <Compile Include="Genome\Gtf\TestGtfTranscriptItemFile.cs" />
     <Compile Include="Genome\Gtf\TestGtfUtils.cs" />
+    <Compile Include="Genome\Mapping\TestChromosomeCountItemXmlFormat.cs" />
     <Compile Include="Genome\Mapping\TestMappedItemGroupXmlFileFormat.cs" />
     <Compile Include="Genome\Mapping\TestSAMAlignedItemCandidateBuilder.cs" />
     <Compile Include="Genome\Mirna\TestMappedMiRNAXmlFileFormat.cs" />
@@ -111,7 +117,10 @@
     <Compile Include="Genome\Pileup\TestPileupItemFisherExactTester.cs" />
     <Compile Include="Genome\Pileup\TestPileupItemParser.cs" />
     <Compile Include="Genome\Pileup\TestPileupItemPercentageTest.cs" />
-    <Compile Include="Genome\Plink\TestBedFile.cs" />
+    <Compile Include="Genome\Plink\TestPlinkBedRandomFile.cs" />
+    <Compile Include="Genome\Plink\TestPlinkLocus.cs" />
+    <Compile Include="Genome\Plink\TestPlinkBedFile.cs" />
+    <Compile Include="Genome\Plink\TestPlinkIndividual.cs" />
     <Compile Include="Genome\QC\TestFastQCItem.cs" />
     <Compile Include="Genome\QC\TestFastQCBasicStatisticItem.cs" />
     <Compile Include="Genome\QC\TestRNASeQCItemReader.cs" />
@@ -121,8 +130,11 @@
     <Compile Include="Genome\Sam\TestBwaFormat.cs" />
     <Compile Include="Genome\Sam\TestCQSBAMParser.cs" />
     <Compile Include="Genome\Sam\TestSAMAlignedItem.cs" />
+    <Compile Include="Genome\Sam\TestSAMAlignedLocation.cs" />
     <Compile Include="Genome\Sam\TestSAMUtils.cs" />
     <Compile Include="Genome\Sam\TestTrimedSAMAlignedItem.cs" />
+    <Compile Include="Genome\SomaticMutation\TestMpileupFisherResult.cs" />
+    <Compile Include="Genome\SomaticMutation\TestMpileupFisherResultFileFormat.cs" />
     <Compile Include="Genome\TestMatchExon.cs" />
     <Compile Include="Genome\TestSequenceRegionUtils.cs" />
     <Compile Include="Genome\Tophat\TestTophatInsertionDeletionBedReader.cs" />

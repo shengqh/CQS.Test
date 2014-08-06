@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NUnit.Framework;
+using Meta.Numerics.Statistics;
 
 namespace CQS.Statistics
 {
@@ -28,5 +29,14 @@ namespace CQS.Statistics
 
       Assert.AreEqual(1, MyFisherExactTest.TwoTailPValue(1, 210, 1, 190), 0.0001);
     }
+
+    [Test]
+    public void TestGreater()
+    {
+      var mat = new[,] { { 14, 0 }, { 14, 5 } };
+
+      Assert.AreEqual(0.00008, new BinaryContingencyTable(mat).FisherExactTest().Statistic, 0.00001);
+    }
+
   }
 }

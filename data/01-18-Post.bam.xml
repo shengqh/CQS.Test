@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <queries>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1101:11336:4263" sequence="GTGAAATGTTTAGGAC" count="182">
+      <location seqname="hsa-miR-203a-3p" start="1" end="16" strand="+" cigar="16M" score="0" mdz="16" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1101:16325:59080" sequence="TAGCTTATCAGACTGATGT" count="7">
+      <location seqname="hsa-miR-21-5p" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1101:7883:56129" sequence="AGGCTGCTGGAG" count="11">
+      <location seqname="bta-miR-2379" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1101:8606:35789" sequence="TCCTGTACTGAGCTGCCCCGA" count="58">
+      <location seqname="hsa-miR-486-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1102:10112:6845" sequence="AACATTCAACGCTGTCGGTGA" count="4">
+      <location seqname="hsa-miR-181a-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1102:15436:21634" sequence="TCCTGTACTGAGCTGCCCCGAG" count="89">
+      <location seqname="hsa-miR-486-5p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1102:16385:24440" sequence="AAGGAAGGCAGC" count="5">
+      <location seqname="mdo-miR-7364-3p" start="1" end="12" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1102:18768:66513" sequence="AACCTGGCTCTG" count="1">
+      <location seqname="cpa-miR8155" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="rgl-miR5139" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1102:9622:34963" sequence="TACCCTGTAGAACCGAATTTGT" count="13">
+      <location seqname="hsa-miR-10b-5p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1103:1792:88484" sequence="ATGGAGAGGAGC" count="3">
+      <location seqname="gga-miR-7472-3p" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" sequence="TGTAAACATCCTTGACTGGAAGCT" count="15">
+      <location seqname="bta-miR-30e-5p" start="1" end="24" strand="+" cigar="24M" score="0" mdz="24" nmi="0" />
+      <location seqname="chi-miR-30e-5p" start="1" end="24" strand="+" cigar="24M" score="0" mdz="24" nmi="0" />
+      <location seqname="oha-miR-30e-5p" start="1" end="24" strand="+" cigar="24M" score="0" mdz="24" nmi="0" />
+      <location seqname="sha-miR-30e" start="1" end="24" strand="+" cigar="24M" score="0" mdz="24" nmi="0" />
+      <location seqname="ssa-miR-30c-5p" start="1" end="24" strand="+" cigar="24M" score="0" mdz="24" nmi="0" />
+      <location seqname="ssc-miR-30e-5p" start="1" end="24" strand="+" cigar="24M" score="0" mdz="24" nmi="0" />
+      <location seqname="tgu-miR-30a-5p" start="1" end="24" strand="+" cigar="24M" score="0" mdz="24" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1104:14502:27351" sequence="TGAGGTAGTAGATTGTATAGTT" count="7">
+      <location seqname="hsa-let-7f-5p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1104:2099:80018" sequence="GGGGCTGTAGTT" count="3">
+      <location seqname="mtr-miR5273" start="3" end="14" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1104:4127:71498" sequence="ATCCCACTTCTGACACCA" count="2">
+      <location seqname="bta-miR-2478" start="3" end="20" strand="+" cigar="18M" score="0" mdz="18" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1105:15709:87481" sequence="CTTGGTTCCGGC" count="27">
+      <location seqname="esi-miR8622a" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="esi-miR8622b" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1106:18854:94313" sequence="AACATTCAACGCTGTCGGTGAGT" count="4">
+      <location seqname="hsa-miR-181a-5p" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1107:11326:72706" sequence="TGAAATGTTTAGGAC" count="14">
+      <location seqname="hsa-miR-203a-3p" start="2" end="16" strand="+" cigar="15M" score="0" mdz="15" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1107:14860:2239" sequence="AAGCTGCCAGTTGAAGAACTGT" count="8">
+      <location seqname="hsa-miR-22-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1107:3286:48307" sequence="AAAAGCTGGGTTGAGAGGGC" count="5">
+      <location seqname="hsa-miR-320a" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" />
+      <location seqname="hsa-miR-320b" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1108:14099:36765" sequence="TGAGGTAGTAGGTTGTATGGTT" count="3">
+      <location seqname="hsa-let-7c-5p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1108:18549:13404" sequence="CTGACCTATGAATTGACAGCC" count="10">
+      <location seqname="hsa-miR-192-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1109:15530:24578" sequence="CGCGCCGGGCCC" count="1">
+      <location seqname="hsa-miR-3195" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1109:19381:9856" sequence="CACGGCCCAGAC" count="3">
+      <location seqname="bmo-miR-2751" start="1" end="12" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1109:9744:56782" sequence="ACAGTAGTCTGCACATTGGTT" count="2">
+      <location seqname="hsa-miR-199a-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+      <location seqname="hsa-miR-199b-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1110:13216:70011" sequence="TGAAATGTTTAGGACC" count="2">
+      <location seqname="hsa-miR-203a-3p" start="2" end="17" strand="+" cigar="16M" score="0" mdz="16" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1110:13700:47060" sequence="CACCCGTAGAACCGACCTTGC" count="2">
+      <location seqname="hsa-miR-99b-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1110:2700:95745" sequence="TCCCCGGCAACGGCGCC" count="3">
+      <location seqname="ath-miR8175" start="3" end="19" strand="+" cigar="17M" score="0" mdz="17" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1110:5980:7494" sequence="AGCTGGTTCCTG" count="10">
+      <location seqname="gga-miR-1588" start="1" end="12" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1112:19082:74963" sequence="TACCCTGTAGATCCGAATTTGTG" count="7">
+      <location seqname="hsa-miR-10a-5p" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1112:4176:82506" sequence="TGCGGACAAGGGA" count="1">
+      <location seqname="eca-miR-8997" start="2" end="14" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1112:5020:5972" sequence="TGAGATGAAGCACTGTAGCT" count="3">
+      <location seqname="hsa-miR-143-3p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1112:9853:43873" sequence="TGAGGTAGTAGATTGT" count="3">
+      <location seqname="hsa-let-7f-5p" start="1" end="16" strand="+" cigar="16M" score="0" mdz="16" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1113:11731:46466" sequence="CAGACTGAGAGC" count="6">
+      <location seqname="bta-miR-2461-3p" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1113:14587:90570" sequence="ACGTCGCCGGGC" count="1">
+      <location seqname="hsa-miR-4745-3p" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1113:16718:81161" sequence="TGAGGTAGTAGTTTGTGCTGT" count="2">
+      <location seqname="hsa-let-7i-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1115:10029:30676" sequence="CAACGGAATCCCAAAAGCAGCTG" count="5">
+      <location seqname="hsa-miR-191-5p" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1115:17275:74312" sequence="ATTCTTGGCTGG" count="2">
+      <location seqname="bdi-miR169i" start="1" end="12" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1115:18225:44585" sequence="CAGTGCAATGTTAAAAGGGC" count="14">
+      <location seqname="hsa-miR-130a-3p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1115:18528:98317" sequence="ACGTTCCCGGGG" count="2">
+      <location seqname="hsa-miR-1247-3p" start="1" end="12" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1116:15399:17706" sequence="TGTAGCTCAGTTGGTAGA" count="5">
+      <location seqname="gga-miR-1692" start="1" end="18" strand="+" cigar="18M" score="0" mdz="18" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1116:15754:41984" sequence="CATCTCATCCTGGGGCT" count="1">
+      <location seqname="mmu-miR-5119" start="1" end="17" strand="+" cigar="17M" score="0" mdz="17" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1201:12625:97904" sequence="AAGCGTAGTCGA" count="1">
+      <location seqname="tae-miR9663-5p" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1204:12226:14199" sequence="TCCGGTCGCACT" count="5">
+      <location seqname="oan-miR-1420f" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1204:15355:19448" sequence="TGTGAGGTTGGC" count="6">
+      <location seqname="hsa-miR-1294" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1204:9093:95036" sequence="ACGTGAAATTGT" count="1">
+      <location seqname="cin-miR-4104-5p" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1205:11400:28184" sequence="TTCAAGTAATCCAGGATAGGCT" count="5">
+      <location seqname="hsa-miR-26a-5p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1205:13208:16097" sequence="CGAAGAGTAGGGC" count="2">
+      <location seqname="cel-miR-58a-5p" start="2" end="14" strand="-" cigar="13M" score="0" mdz="13" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1206:11014:71610" sequence="CTCGAGCTGCTC" count="3">
+      <location seqname="dme-miR-4941-5p" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1206:16094:81343" sequence="GGTAGAGCTGAGGAC" count="2">
+      <location seqname="hsa-miR-4451" start="2" end="16" strand="+" cigar="15M" score="0" mdz="15" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1209:16727:51853" sequence="TATGGCACTGGTAGAAT" count="2">
+      <location seqname="hsa-miR-183-5p" start="1" end="17" strand="+" cigar="17M" score="0" mdz="17" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1209:7162:79916" sequence="TGAGGGGCAGAGAGCGAGACTTT" count="17">
+      <location seqname="hsa-miR-3184-3p" start="1" end="23" strand="-" cigar="23M" score="0" mdz="23" nmi="0" />
+      <location seqname="hsa-miR-423-5p" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1211:16397:13490" sequence="ATCCGATCGGCT" count="4">
+      <location seqname="oan-miR-1420c-5p" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1211:8903:60533" sequence="TTAATATCGGACAACCATTGT" count="6">
+      <location seqname="hsa-miR-889-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1212:18370:19333" sequence="GTAAGGGCTTCC" count="3">
+      <location seqname="aca-miR-129a-3p" start="1" end="12" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="oha-miR-129a-3p" start="1" end="12" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1213:18663:97068" sequence="TGAGGTAAGGGC" count="5">
+      <location seqname="bbe-miR-129a-3p" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="bfl-miR-129a-3p" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1214:14073:84173" sequence="AGCGCGGCCGGC" count="2">
+      <location seqname="hcmv-miR-US22-3p" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1214:21029:9559" sequence="TTCACAGTGGCTAAGTTCTG" count="3">
+      <location seqname="hsa-miR-27b-3p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1215:4683:100817" sequence="AATTGGCAGAGC" count="1">
+      <location seqname="bta-miR-2473" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="cfa-miR-8839" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1216:12339:24585" sequence="TCCTGTCTGAAC" count="4">
+      <location seqname="mmu-miR-6948-5p" start="2" end="13" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1216:19468:16698" sequence="ATCTCATCCTGGGGCT" count="1">
+      <location seqname="mmu-miR-5119" start="2" end="17" strand="+" cigar="16M" score="0" mdz="16" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1302:2068:70294" sequence="GAATGTTGCTCGGTGAACCCCT" count="4">
+      <location seqname="hsa-miR-409-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1303:4573:94872" sequence="TCACAGTGAACCGGTCTCTTT" count="3">
+      <location seqname="hsa-miR-128-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1304:9201:83907" sequence="TATTGCACTTGTCCCGGCCTGT" count="3">
+      <location seqname="hsa-miR-92a-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1305:14651:42299" sequence="CCGACCTTAGCTC" count="7">
+      <location seqname="ptc-miR6478" start="1" end="13" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1305:16681:21578" sequence="AGTGGCAGAGTG" count="2">
+      <location seqname="mml-miR-4796-3p" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1305:2614:81484" sequence="TTTGGCAATGGTAGAAC" count="6">
+      <location seqname="hsa-miR-182-5p" start="1" end="17" strand="+" cigar="17M" score="0" mdz="17" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1306:11777:22765" sequence="ACGTGAAATTGTTG" count="2">
+      <location seqname="cin-miR-4104-5p" start="1" end="14" strand="+" cigar="14M" score="0" mdz="14" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1307:15963:56638" sequence="AGGGGCAGAGAGCGAGAC" count="2">
+      <location seqname="hsa-miR-423-5p" start="3" end="20" strand="+" cigar="18M" score="0" mdz="18" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1308:14286:19951" sequence="AGAGCACTGGATG" count="1">
+      <location seqname="mmu-miR-5108" start="3" end="15" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1310:12935:87918" sequence="CATAAAGTAGAAAGC" count="2">
+      <location seqname="hsa-miR-142-5p" start="1" end="15" strand="+" cigar="15M" score="0" mdz="15" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1311:14114:96078" sequence="GGGGCCTTAGCT" count="2">
+      <location seqname="mmu-miR-6396" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1312:5907:85172" sequence="GAGAAGAAGGGC" count="1">
+      <location seqname="bdi-miR164f" start="3" end="14" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:1316:6439:58784" sequence="TTCACAGTGGCTAAGT" count="4">
+      <location seqname="hsa-miR-27a-3p" start="1" end="16" strand="+" cigar="16M" score="0" mdz="16" nmi="0" />
+      <location seqname="hsa-miR-27b-3p" start="1" end="16" strand="+" cigar="16M" score="0" mdz="16" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2103:4180:84586" sequence="AGGGCTGAGGCC" count="1">
+      <location seqname="mmu-miR-7662-5p" start="1" end="12" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2105:19933:10336" sequence="ACTGGACTTGGAGTCAGAAGG" count="1">
+      <location seqname="hsa-miR-378a-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2105:8464:42693" sequence="ACCATCGACCGTTGAGTGGACC" count="2">
+      <location seqname="cgr-miR-181c-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+      <location seqname="chi-miR-181c-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+      <location seqname="mmu-miR-181c-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+      <location seqname="rno-miR-181c-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2111:11082:97321" sequence="AAGGATTGGCTG" count="1">
+      <location seqname="bta-miR-2462" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2111:12794:94662" sequence="AAGGGGTGTATG" count="1">
+      <location seqname="hsa-miR-3936" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2112:19710:80342" sequence="AACCAGGCTCTGATACC" count="3">
+      <location seqname="gma-miR1511" start="1" end="17" strand="+" cigar="17M" score="0" mdz="17" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" sequence="TTGGCGCGGCTC" count="2">
+      <location seqname="csi-miR171a" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="gma-miR171k-3p" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="lja-miR171d-5p" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="mdm-miR171j" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="mdm-miR171k" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="mdm-miR171l" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="nta-miR171b" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="ppe-miR171b" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="ppt-miR171a" start="2" end="13" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="ppt-miR171b" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="sly-miR171d" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="smo-miR171d" start="2" end="13" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="ssl-miR171b" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="vvi-miR171f" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2202:8093:59663" sequence="TGAACTTTGACC" count="1">
+      <location seqname="gra-miR8769" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+      <location seqname="ppe-miR6265" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2204:10205:12711" sequence="CATTGCACTTGTCTCGGTCT" count="3">
+      <location seqname="hsa-miR-25-3p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2204:5879:54870" sequence="CCCAGCTCGACC" count="2">
+      <location seqname="ata-miR398g-5p" start="2" end="13" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2210:12318:22379" sequence="GAGACTGACAAGT" count="1">
+      <location seqname="mmu-miR-873a-3p" start="1" end="13" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+      <location seqname="rno-miR-873-3p" start="1" end="13" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2211:8330:97116" sequence="TTCAAGTAATCTAGGATAGGCT" count="1">
+      <location seqname="ssa-miR-26d-5p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2212:4114:6010" sequence="CAGGGCCAGCGG" count="1">
+      <location seqname="eca-miR-8999" start="3" end="14" strand="-" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2214:8456:86322" sequence="GTGTAACAACTC" count="1">
+      <location seqname="cel-miR-2209b-5p" start="2" end="13" strand="+" cigar="12M" score="0" mdz="12" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2216:10569:100886" sequence="ATCTCATCCTGGGGC" count="1">
+      <location seqname="mmu-miR-5119" start="2" end="16" strand="+" cigar="15M" score="0" mdz="15" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2302:16063:39984" sequence="ATTGGCGCGACTC" count="1">
+      <location seqname="smo-miR171c" start="3" end="15" strand="-" cigar="13M" score="0" mdz="13" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2303:2017:25307" sequence="TAATACTGCCGGGT" count="1">
+      <location seqname="hsa-miR-200c-3p" start="1" end="14" strand="+" cigar="14M" score="0" mdz="14" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2304:16672:55982" sequence="TACCCTGTAGATCCGAATTTGT" count="1">
+      <location seqname="hsa-miR-10a-5p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" />
+    </query>
+    <query name="HWI-ST508:279:D2BAFACXX:5:2306:14421:91750" sequence="GGCAGAGGAGGGC" count="1">
+      <location seqname="cgr-miR-298-5p" start="1" end="13" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+      <location seqname="mmu-miR-298-5p" start="1" end="13" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+      <location seqname="rno-miR-298-5p" start="1" end="13" strand="+" cigar="13M" score="0" mdz="13" nmi="0" />
+    </query>
+  </queries>
+  <subjectResult>
+    <subjectGroup>
+      <subject name="hsa-miR-203a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1101:11336:4263" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1107:11326:72706" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1110:13216:70011" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-5119" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1116:15754:41984" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1216:19468:16698" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2216:10569:100886" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-10a-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1112:19082:74963" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2304:16672:55982" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cin-miR-4104-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1204:9093:95036" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1306:11777:22765" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-let-7f-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1104:14502:27351" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1112:9853:43873" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-423-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1209:7162:79916" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1307:15963:56638" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-27b-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1214:21029:9559" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1316:6439:58784" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-181a-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1102:10112:6845" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1106:18854:94313" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-486-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1101:8606:35789" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1102:15436:21634" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-142-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1310:12935:87918" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-6396" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1311:14114:96078" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bdi-miR164f" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1312:5907:85172" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-27a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1316:6439:58784" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rno-miR-181c-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2105:8464:42693" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-181c-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2105:8464:42693" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bta-miR-2462" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2111:11082:97321" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cgr-miR-181c-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2105:8464:42693" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-378a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2105:19933:10336" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-7662-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2103:4180:84586" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="chi-miR-181c-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2105:8464:42693" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bfl-miR-129a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1213:18663:97068" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hcmv-miR-US22-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1214:14073:84173" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bta-miR-2473" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1215:4683:100817" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cfa-miR-8839" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1215:4683:100817" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-6948-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1216:12339:24585" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-409-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1302:2068:70294" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-5108" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1308:14286:19951" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-182-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1305:2614:81484" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mml-miR-4796-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1305:16681:21578" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR6478" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1305:14651:42299" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-92a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1304:9201:83907" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-128-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1303:4573:94872" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-3936" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2111:12794:94662" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rno-miR-873-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2210:12318:22379" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-873a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2210:12318:22379" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ata-miR398g-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2204:5879:54870" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-25-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2204:10205:12711" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ppe-miR6265" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2202:8093:59663" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gra-miR8769" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2202:8093:59663" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ssa-miR-26d-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2211:8330:97116" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-298-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2306:14421:91750" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cgr-miR-298-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2306:14421:91750" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-200c-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2303:2017:25307" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="smo-miR171c" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2302:16063:39984" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cel-miR-2209b-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2214:8456:86322" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="eca-miR-8999" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2212:4114:6010" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR171f" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdm-miR171k" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdm-miR171j" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="lja-miR171d-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR171k-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="csi-miR171a" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR1511" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2112:19710:80342" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdm-miR171l" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ssl-miR171b" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="smo-miR171d" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="sly-miR171d" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ppt-miR171b" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ppt-miR171a" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ppe-miR171b" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="nta-miR171b" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2115:1808:24269" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bbe-miR-129a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1213:18663:97068" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mtr-miR5273" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1104:2099:80018" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bta-miR-2478" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1104:4127:71498" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="esi-miR8622a" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1105:15709:87481" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="esi-miR8622b" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1105:15709:87481" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-22-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1107:14860:2239" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-320a" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1107:3286:48307" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-199a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1109:9744:56782" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bmo-miR-2751" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1109:19381:9856" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-3195" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1109:15530:24578" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-192-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1108:18549:13404" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-let-7c-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1108:14099:36765" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-320b" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1107:3286:48307" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tgu-miR-30a-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-10b-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1102:9622:34963" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rgl-miR5139" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1102:18768:66513" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cpa-miR8155" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1102:18768:66513" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdo-miR-7364-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1102:16385:24440" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bta-miR-2379" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1101:7883:56129" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-21-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1101:16325:59080" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gga-miR-7472-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:1792:88484" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ssc-miR-30e-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ssa-miR-30c-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="sha-miR-30e" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="oha-miR-30e-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="chi-miR-30e-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bta-miR-30e-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1103:2375:36582" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-199b-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1109:9744:56782" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="oan-miR-1420f" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1204:12226:14199" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-1294" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1204:15355:19448" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-26a-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1205:11400:28184" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cel-miR-58a-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1205:13208:16097" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="dme-miR-4941-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1206:11014:71610" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-4451" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1206:16094:81343" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="oha-miR-129a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1212:18370:19333" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aca-miR-129a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1212:18370:19333" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-889-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1211:8903:60533" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="oan-miR-1420c-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1211:16397:13490" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-3184-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1209:7162:79916" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-183-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1209:16727:51853" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tae-miR9663-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1201:12625:97904" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bta-miR-2461-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1113:11731:46466" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-143-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1112:5020:5972" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="eca-miR-8997" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1112:4176:82506" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gga-miR-1588" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1110:5980:7494" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ath-miR8175" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1110:2700:95745" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-99b-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1110:13700:47060" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-4745-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1113:14587:90570" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gga-miR-1692" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1116:15399:17706" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-1247-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1115:18528:98317" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-130a-3p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1115:18225:44585" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bdi-miR169i" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1115:17275:74312" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-191-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1115:10029:30676" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-let-7i-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:1113:16718:81161" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rno-miR-298-5p" />
+      <query qname="HWI-ST508:279:D2BAFACXX:5:2306:14421:91750" />
+    </subjectGroup>
+  </subjectResult>
+</root>
