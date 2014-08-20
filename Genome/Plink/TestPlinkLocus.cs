@@ -12,7 +12,7 @@ namespace CQS.Genome.Plink
     [Test]
     public void TestReadFromFile()
     {
-      var data = PlinkLocus.ReadFromFile("../../data/plink/plinknew.bim");
+      var data = PlinkLocus.ReadFromBimFile("../../data/plink/plinknew.bim");
       Assert.AreEqual(2, data.Count);
       var last = data.Last();
 

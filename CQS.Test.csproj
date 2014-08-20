@@ -119,7 +119,7 @@
     <Compile Include="Genome\Pileup\TestPileupItemPercentageTest.cs" />
     <Compile Include="Genome\Plink\TestPlinkBedRandomFile.cs" />
     <Compile Include="Genome\Plink\TestPlinkLocus.cs" />
-    <Compile Include="Genome\Plink\TestPlinkBedFile.cs" />
+    <Compile Include="Genome\Plink\TestPlinkFile.cs" />
     <Compile Include="Genome\Plink\TestPlinkIndividual.cs" />
     <Compile Include="Genome\QC\TestFastQCItem.cs" />
     <Compile Include="Genome\QC\TestFastQCBasicStatisticItem.cs" />
