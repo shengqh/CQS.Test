@@ -17,7 +17,7 @@ namespace CQS.Genome
     {
       var locs = SequenceRegionUtils.ParseNameLocations<SequenceRegion>(namelocations);
       Assert.AreEqual(2, locs.Count);
-      
+
       Assert.AreEqual("mmu-let-7a-1-5p:TGAGGTAGTAGGTTGTATAGTT", locs[0].Name);
       Assert.AreEqual("13", locs[0].Seqname);
       Assert.AreEqual(48633608, locs[0].Start);
@@ -43,6 +43,33 @@ namespace CQS.Genome
       Assert.AreEqual('-', loc.Strand);
 
       Assert.AreEqual(location, SequenceRegionUtils.GetLocation(loc));
+    }
+
+    [Test]
+    public void TestOverlap()
+    {
+      var loc1 = new SequenceRegion()
+      {
+        Seqname = "2",
+        Start = 12227067,
+        End = 12227087
+      };
+
+      var loc2 = new SequenceRegion()
+      {
+        Seqname = "1",
+        Start = 12227065,
+        End = 12227076
+      };
+
+      //different chromosomes
+      Assert.IsFalse(loc1.Overlap(loc2, 0.0));
+
+      loc1.Seqname = "1";
+      Assert.IsTrue(loc1.Overlap(loc2, 0.0));
+
+      loc1.Start = loc2.End + 1;
+      Assert.IsFalse(loc1.Overlap(loc2, 0.0));
     }
   }
 }

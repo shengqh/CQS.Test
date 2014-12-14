@@ -17,7 +17,7 @@ namespace CQS.Genome.Pileup
       {
         Sequence = "CTCTTAGATCGATGTGGTGCTCCGGAAAAAA",
       };
-      item1.AddLocation(new SAMAlignedLocation(item1)
+      item1.AddLocation(new SamAlignedLocation(item1)
       {
         Seqname  ="chr13",
         Cigar = "5S21M5S",
@@ -30,7 +30,7 @@ namespace CQS.Genome.Pileup
       {
         Sequence = "GATGTAGTGCTCCGGATTTTT"
       };
-      item2.AddLocation(new SAMAlignedLocation(item2)
+      item2.AddLocation(new SamAlignedLocation(item2)
       {
         Seqname = "chr13",
         Cigar = "21M",

@@ -18,5 +18,15 @@ namespace CQS.Genome.Sam
       Assert.AreEqual("chr1", chrs.First());
       Assert.AreEqual("chrY_JH584303_random", chrs.Last());
     }
+
+    [Test]
+    public void TestParseEnd()
+    {
+      Assert.AreEqual(10, SAMUtils.ParseEnd(1, "10M"));
+
+      Assert.AreEqual(50, SAMUtils.ParseEnd(1, "11M1D10M1I19M1I9M"));
+
+      Assert.AreEqual(41, SAMUtils.ParseEnd(1, "11M1D10M1I19M1I9D"));
+    }
   }
 }
