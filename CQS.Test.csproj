@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CQS</RootNamespace>
     <AssemblyName>CQS.Test</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -18,6 +18,7 @@
     <SccLocalPath>Svn</SccLocalPath>
     <SccAuxPath>Svn</SccAuxPath>
     <SccProvider>SubversionScc</SccProvider>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,6 +29,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -36,19 +38,8 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x64</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|AnyCPU'">
-    <OutputPath>bin\Win32\</OutputPath>
-    <DefineConstants>
-    </DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
-    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +49,7 @@
     <PlatformTarget>x64</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
@@ -67,54 +59,20 @@
     <PlatformTarget>x64</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|x64'">
-    <OutputPath>bin\x64\Win32\</OutputPath>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\x86\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <OutputPath>bin\x86\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|x86'">
-    <OutputPath>bin\x86\Win32\</OutputPath>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bio, Version=1.1.4482.26498, Culture=neutral, PublicKeyToken=13335e9abfbf69d0, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\SQH.Lib\Bio.dll</HintPath>
     </Reference>
-    <Reference Include="Meta.Numerics">
-      <HintPath>..\packages\Meta.Numerics.2.2.0\lib\Meta.Numerics.dll</HintPath>
+    <Reference Include="Meta.Numerics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347, processorArchitecture=MSIL">
+      <HintPath>..\packages\Meta.Numerics.3.0.0\lib\Meta.Numerics.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -133,6 +91,7 @@
     <Compile Include="Genome\Annotation\TestAnnovarGenomeSummaryItemReader.cs" />
     <Compile Include="Genome\Annotation\TestAnnovarVariantItemReader.cs" />
     <Compile Include="Genome\Annotation\TestAnnovarExonicVariantItemReader.cs" />
+    <Compile Include="Genome\Bacteria\TestGffToBedConverter.cs" />
     <Compile Include="Genome\Bed\TestBedItemFile.cs" />
     <Compile Include="Genome\Bed\TestMatchedBedItem.cs" />
     <Compile Include="Genome\Bed\TestMatchedBedItemFile.cs" />
@@ -148,13 +107,17 @@
     <Compile Include="Genome\Annotation\TestGenebankFeature.cs" />
     <Compile Include="Genome\Annotation\TestGenebankFormat.cs" />
     <Compile Include="Genome\Feature\TestGenomeFeature.cs" />
+    <Compile Include="Genome\Gsnap\TestSAMAlignedItemCandidateGsnapBuilder.cs" />
     <Compile Include="Genome\Gtf\TestGtf2BedGeneIdBuilder.cs" />
     <Compile Include="Genome\Gtf\TestGtfItemFile.cs" />
     <Compile Include="Genome\Gtf\TestGtfItem.cs" />
     <Compile Include="Genome\Gtf\TestGtfTranscriptItem.cs" />
     <Compile Include="Genome\Gtf\TestGtfTranscriptItemFile.cs" />
     <Compile Include="Genome\Gtf\TestGtfUtils.cs" />
+    <Compile Include="Genome\Gwas\TestSNPItemUtils.cs" />
     <Compile Include="Genome\Mapping\TestChromosomeCountItemXmlFormat.cs" />
+    <Compile Include="Genome\Mapping\TestChromosomeCountSlimXmlReader.cs" />
+    <Compile Include="Genome\Quantification\TestGeneCountTable.cs" />
     <Compile Include="Genome\Mapping\TestMappedItemGroupXmlFileFormat.cs" />
     <Compile Include="Genome\Mapping\TestSAMAlignedItemCandidateBuilder.cs" />
     <Compile Include="Genome\Mirna\TestMappedMiRNAXmlFileFormat.cs" />
@@ -176,6 +139,7 @@
     <Compile Include="Genome\QC\TestFastQCBasicStatisticItem.cs" />
     <Compile Include="Genome\QC\TestRNASeQCItemReader.cs" />
     <Compile Include="Genome\QC\TestSamToolsStatItemReader.cs" />
+    <Compile Include="Genome\Quantification\TestHTSeqCountToFPKMCalculator.cs" />
     <Compile Include="Genome\Rnaediting\TestDarnedReader.cs" />
     <Compile Include="Genome\Sam\TestBAMWindowReader.cs" />
     <Compile Include="Genome\Sam\TestBwaFormat.cs" />
@@ -184,14 +148,20 @@
     <Compile Include="Genome\Sam\TestSAMAlignedLocation.cs" />
     <Compile Include="Genome\Sam\TestSAMUtils.cs" />
     <Compile Include="Genome\Sam\TestTrimedSAMAlignedItem.cs" />
+    <Compile Include="Genome\SmallRNA\TestSmallRNACountProcessor.cs" />
+    <Compile Include="Genome\SmallRNA\TestSmallRNACountProcessorOptions.cs" />
+    <Compile Include="Genome\SomaticMutation\TestFilterItemVcfWriter.cs" />
+    <Compile Include="Genome\SomaticMutation\TestFilterItemTextReader.cs" />
     <Compile Include="Genome\SomaticMutation\TestMpileupFisherResult.cs" />
     <Compile Include="Genome\SomaticMutation\TestMpileupFisherResultFileFormat.cs" />
+    <Compile Include="Genome\SomaticMutation\TestMpileupParser.cs" />
     <Compile Include="Genome\TestMatchExon.cs" />
     <Compile Include="Genome\TestSequenceRegionUtils.cs" />
     <Compile Include="Genome\Tophat\TestTophatInsertionDeletionBedReader.cs" />
     <Compile Include="Genome\Tophat\TestTophatJunctionBedReader.cs" />
     <Compile Include="Genome\Tophat\TestMutationItemFileReader.cs" />
     <Compile Include="Genome\Tophat\TestMutationRecordFileReader.cs" />
+    <Compile Include="Genome\Vcf\TestVcfGenotypeTableBuilder.cs" />
     <Compile Include="GroSeq\TestPeakAnnotationItemFormat.cs" />
     <Compile Include="GroSeq\TestPearsonCorrelationCalculator.cs" />
     <Compile Include="Microarray\Affymatrix\TestCelFile.cs" />
@@ -227,6 +197,7 @@
     <Folder Include="Genome\Refseq\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

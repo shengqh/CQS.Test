@@ -71,5 +71,58 @@ namespace CQS.Genome
       loc1.Start = loc2.End + 1;
       Assert.IsFalse(loc1.Overlap(loc2, 0.0));
     }
+
+    SequenceRegion loc1, loc2;
+
+    public void TestCombineDifferntChromosome()
+    {
+      var locs = InitLocs();
+      SequenceRegionUtils.Combine(locs);
+      Assert.AreEqual(2, locs.Count);
+    }
+
+    [Test]
+    public void TestCombineOverlap()
+    {
+      var locs = InitLocs();
+      loc1.Seqname = "1";
+      SequenceRegionUtils.Combine(locs);
+      Assert.AreEqual(1, locs.Count);
+      Assert.AreEqual(12227065, locs[0].Start);
+      Assert.AreEqual(12227087, locs[0].End);
+    }
+
+    [Test]
+    public void TestCombineContain()
+    {
+      var locs = InitLocs();
+      loc1.Seqname = "1";
+      loc1.End = 12227075;
+      SequenceRegionUtils.Combine(locs);
+      Assert.AreEqual(1, locs.Count);
+      Assert.AreSame(loc2, locs[0]);
+      Assert.AreEqual(12227065, locs[0].Start);
+      Assert.AreEqual(12227076, locs[0].End);
+    }
+
+    private List<SequenceRegion> InitLocs()
+    {
+      loc1 = new SequenceRegion()
+      {
+        Seqname = "2",
+        Start = 12227067,
+        End = 12227087
+      };
+
+      loc2 = new SequenceRegion()
+      {
+        Seqname = "1",
+        Start = 12227065,
+        End = 12227076
+      };
+
+      var locs = new List<SequenceRegion>(new[] { loc1, loc2 });
+      return locs;
+    }
   }
 }

@@ -1,0 +1,7 @@
+##fileformat=VCFv4.1
+##ALT=<ID=*:DEL,Description="Represents any possible spanning deletion allele at this location">
+##ALT=<ID=NON_REF,Description="Represents any possible alternative allele at this location">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	CSW-1	CSW-2	CSW-3	CSW-4	CSW-5	CSW-6
+chr1	3522256	.	A	G	310.43	PASS	AC=6;AF=1.00;AN=6;DP=14;FS=0.000;MLEAC=6;MLEAF=1.00;MQ=60.00;QD=28.22;SOR=1.270	GT:AD:DP:GQ:PL	1/1:0,4:4:12:125,12,0	./.:1,0:1	1/1:0,5:5:15:141,15,0	./.:1,0:1	1/1:0,2:2:6:69,6,0	./.:1,0:1
+chr1	3522273	.	C	G	565.44	PASS	AC=10;AF=1.00;AN=10;DP=19;FS=0.000;MLEAC=10;MLEAF=1.00;MQ=60.00;QD=31.41;SOR=0.693	GT:AD:DP:GQ:PL	1/1:0,5:5:15:178,15,0	./.:1,0:1	1/1:0,5:5:15:154,15,0	1/1:0,2:2:6:47,6,0	1/1:0,3:3:9:105,9,0	1/1:0,3:3:9:106,9,0
+chr1	3522352	.	A	G	152.10	PASS	AC=6;AF=1.00;AN=6;DP=8;FS=0.000;MLEAC=6;MLEAF=1.00;MQ=60.00;QD=25.35;SOR=0.693	GT:AD:DP:GQ:PL	1/1:0,2:2:6:66,6,0	./.:1,0:1	./.:1,0:1	1/1:0,2:2:6:45,6,0	./.:0,0:0	1/1:0,2:2:6:65,6,0

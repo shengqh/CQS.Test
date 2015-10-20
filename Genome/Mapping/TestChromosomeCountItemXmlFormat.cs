@@ -12,7 +12,7 @@ namespace CQS.Genome.Mapping
     [Test]
     public void Test()
     {
-      var data = new ChromosomeCountXmFormat().ReadFromFile(@"../../data/01-18-Post.bam.xml");
+      var data = new ChromosomeCountXmlFormat().ReadFromFile(@"../../data/01-18-Post.bam.xml");
     }
   }
 }
