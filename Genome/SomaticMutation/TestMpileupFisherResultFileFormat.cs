@@ -11,9 +11,9 @@ namespace CQS.Genome.SomaticMutation
   public class TestMpileupFisherResultFileFormat
   {
     [Test]
-    public void TestMethod()
+    public void TestReadFromFile()
     {
-      var data = new MpileupFisherResultFileFormat().ReadFromFile(@"../../data/TCGA-BH-A0E0-DNA-TP-NB.candidates");
+      var data = new MpileupFisherResultFileFormat().ReadFromFile(@"../../../data/TCGA-BH-A0E0-DNA-TP-NB.candidates");
       Assert.AreEqual(850, data.Count);
 
       var res = data[0];
@@ -27,6 +27,41 @@ namespace CQS.Genome.SomaticMutation
       Assert.AreEqual(11, res.Group.Sample2.Succeed);
       Assert.AreEqual(3, res.Group.Sample2.Failed);
       Assert.AreEqual(3.8E-02, res.Group.PValue, 0.01);
+    }
+
+    [Test]
+    public void TestParseStringWithoutFailedReason()
+    {
+      var filename = "4_JH584292_random_13694_T_T_G_49_0_37_6_8.5E-03";
+      var res = MpileupFisherResultFileFormat.ParseString(filename);
+      Assert.AreEqual("4_JH584292_random", res.Item.SequenceIdentifier);
+      Assert.AreEqual(13694, res.Item.Position);
+      Assert.AreEqual('T', res.Item.Nucleotide);
+      Assert.AreEqual("T", res.Group.SucceedName);
+      Assert.AreEqual("G", res.Group.FailedName);
+      Assert.AreEqual(49, res.Group.Sample1.Succeed);
+      Assert.AreEqual(0, res.Group.Sample1.Failed);
+      Assert.AreEqual(37, res.Group.Sample2.Succeed);
+      Assert.AreEqual(6, res.Group.Sample2.Failed);
+      Assert.AreEqual(8.5E-03, res.Group.PValue, 0.01);
+      Assert.AreEqual(string.Empty, res.FailedReason);
+    }
+
+    public void TestParseStringWithFailedReason()
+    {
+      var filename = "4_JH584292_random_13694_T_T_G_49_0_37_6_8.5E-03_FailedReason";
+      var res = MpileupFisherResultFileFormat.ParseString(filename);
+      Assert.AreEqual("4_JH584292_random", res.Item.SequenceIdentifier);
+      Assert.AreEqual(13694, res.Item.Position);
+      Assert.AreEqual('T', res.Item.Nucleotide);
+      Assert.AreEqual("T", res.Group.SucceedName);
+      Assert.AreEqual("G", res.Group.FailedName);
+      Assert.AreEqual(49, res.Group.Sample1.Succeed);
+      Assert.AreEqual(0, res.Group.Sample1.Failed);
+      Assert.AreEqual(37, res.Group.Sample2.Succeed);
+      Assert.AreEqual(6, res.Group.Sample2.Failed);
+      Assert.AreEqual(8.5E-03, res.Group.PValue, 0.01);
+      Assert.AreEqual("FailedReason", res.FailedReason);
     }
   }
 }

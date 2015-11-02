@@ -152,11 +152,11 @@
     <Compile Include="Genome\SmallRNA\TestSmallRNACountProcessorOptions.cs" />
     <Compile Include="Genome\SomaticMutation\TestFilterItemVcfWriter.cs" />
     <Compile Include="Genome\SomaticMutation\TestFilterItemTextReader.cs" />
-    <Compile Include="Genome\SomaticMutation\TestMpileupFisherResult.cs" />
     <Compile Include="Genome\SomaticMutation\TestMpileupFisherResultFileFormat.cs" />
     <Compile Include="Genome\SomaticMutation\TestMpileupParser.cs" />
     <Compile Include="Genome\TestMatchExon.cs" />
     <Compile Include="Genome\TestSequenceRegionUtils.cs" />
+    <Compile Include="Genome\TNBC\TestCallerCoefResultReader.cs" />
     <Compile Include="Genome\Tophat\TestTophatInsertionDeletionBedReader.cs" />
     <Compile Include="Genome\Tophat\TestTophatJunctionBedReader.cs" />
     <Compile Include="Genome\Tophat\TestMutationItemFileReader.cs" />
