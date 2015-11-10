@@ -154,6 +154,7 @@
     <Compile Include="Genome\SomaticMutation\TestFilterItemTextReader.cs" />
     <Compile Include="Genome\SomaticMutation\TestMpileupFisherResultFileFormat.cs" />
     <Compile Include="Genome\SomaticMutation\TestMpileupParser.cs" />
+    <Compile Include="Genome\SomaticMutation\TestSomaticMutationUtils.cs" />
     <Compile Include="Genome\TestMatchExon.cs" />
     <Compile Include="Genome\TestSequenceRegionUtils.cs" />
     <Compile Include="Genome\TNBC\TestCallerCoefResultReader.cs" />
