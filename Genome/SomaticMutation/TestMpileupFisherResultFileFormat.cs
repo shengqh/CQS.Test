@@ -11,7 +11,7 @@ namespace CQS.Genome.SomaticMutation
   public class TestMpileupFisherResultFileFormat
   {
     [Test]
-    public void TestReadFromFile()
+    public void TestReadFromFileWithoutFilter()
     {
       var data = new MpileupFisherResultFileFormat().ReadFromFile(@"../../../data/TCGA-BH-A0E0-DNA-TP-NB.candidates");
       Assert.AreEqual(850, data.Count);
@@ -27,6 +27,26 @@ namespace CQS.Genome.SomaticMutation
       Assert.AreEqual(11, res.Group.Sample2.Succeed);
       Assert.AreEqual(3, res.Group.Sample2.Failed);
       Assert.AreEqual(3.8E-02, res.Group.PValue, 0.01);
+    }
+
+    [Test]
+    public void TestReadFromFileWithFilter()
+    {
+      var data = new MpileupFisherResultFileFormat().ReadFromFile(@"../../../data/glmvc.candidates");
+      Assert.AreEqual(24, data.Count);
+
+      var res = data[3];
+      Assert.AreEqual("2", res.Item.SequenceIdentifier);
+      Assert.AreEqual(110301779, res.Item.Position);
+      Assert.AreEqual('A', res.Item.Nucleotide);
+      Assert.AreEqual("A", res.Group.SucceedName);
+      Assert.AreEqual("", res.Group.FailedName);
+      Assert.AreEqual(23, res.Group.Sample1.Succeed);
+      Assert.AreEqual(0, res.Group.Sample1.Failed);
+      Assert.AreEqual(9, res.Group.Sample2.Succeed);
+      Assert.AreEqual(0, res.Group.Sample2.Failed);
+      Assert.AreEqual(1.0E00, res.Group.PValue, 0.01);
+      Assert.AreEqual("Read depth < 10", res.FailedReason);
     }
 
     [Test]
