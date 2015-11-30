@@ -31,5 +31,26 @@ namespace CQS.Genome.SomaticMutation
       Assert.AreEqual(262, fr.Group.Sample2.Succeed);
       Assert.AreEqual(143, fr.Group.Sample2.Failed);
     }
+
+    [Test]
+    public void TestParse()
+    {
+      var result = new MpileupResult("test", "c:/temp");
+      var parser = new MpileupParser(new PileupProcessorOptions(), result);
+      var line = File.ReadAllLines(@"../../../data/glmvc_mpileup.txt").First();
+      var fr = parser.Parse(line, false);
+
+      Assert.AreEqual(354, fr.Item.Samples[0].Count);
+      Assert.AreEqual(406, fr.Item.Samples[1].Count);
+
+      Assert.AreEqual("G", fr.Group.SucceedName);
+      Assert.AreEqual("A", fr.Group.FailedName);
+
+      Assert.AreEqual(354, fr.Group.Sample1.Succeed);
+      Assert.AreEqual(0, fr.Group.Sample1.Failed);
+
+      Assert.AreEqual(262, fr.Group.Sample2.Succeed);
+      Assert.AreEqual(143, fr.Group.Sample2.Failed);
+    }
   }
 }
