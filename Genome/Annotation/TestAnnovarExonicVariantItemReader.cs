@@ -12,7 +12,7 @@ namespace CQS.Genome.Annotation
     [Test]
     public void TestRead()
     {
-      var items = new AnnovarExonicVariantItemReader().ReadFromFile("../../data/annovar.exonic_variant_function");
+      var items = new AnnovarExonicVariantItemReader().ReadFromFile("../../../data/annovar.exonic_variant_function");
       Assert.AreEqual(10, items.Count);
       Assert.AreEqual("nonsynonymous SNV", items[0].VariantType);
       Assert.AreEqual("AGRN:NM_198576:exon29:c.C5083A:p.L1695M,", items[0].VariantAnnotation);

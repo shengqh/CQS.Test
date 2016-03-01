@@ -12,7 +12,7 @@ namespace CQS.Genome.Bed
     [Test]
     public void TestNext()
     {
-      string filename = "../../data/match.tsv";
+      string filename = "../../../data/match.tsv";
       using (MatchedBedItemFile file = new MatchedBedItemFile(filename))
       {
         var item = file.Next();

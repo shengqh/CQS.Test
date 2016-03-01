@@ -9,7 +9,7 @@ namespace CQS.Genome.Gtf
   [TestFixture]
   public class TestGtfItemFile
   {
-    public static string filename = "../../data/Homo_sapiens.GRCh37.68.slim.gtf";
+    public static string filename = "../../../data/Homo_sapiens.GRCh37.68.slim.gtf";
 
     [Test]
     public void TestNext()

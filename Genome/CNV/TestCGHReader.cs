@@ -12,7 +12,7 @@ namespace CQS.Genome.CNV
     [Test]
     public void Test()
     {
-      var actual = new CGHReader().ReadFromFile("../../data/cgh.txt");
+      var actual = new CGHReader().ReadFromFile("../../../data/cgh.txt");
       Assert.AreEqual(517, actual.Count);
       
       Assert.AreEqual("BT20US09513751_252152924105_S01_CGH_107_Sep09", actual[0].FileName);

@@ -12,7 +12,7 @@ namespace CQS.Genome.QC
     [Test]
     public void TestParse()
     {
-      var actual = FastQCBasicStatisticItem.ParseFromFile("../../data/G1_7143/s_2_1_sequence_fastqc/fastqc_data.txt");
+      var actual = FastQCBasicStatisticItem.ParseFromFile("../../../data/G1_7143/s_2_1_sequence_fastqc/fastqc_data.txt");
       Assert.AreEqual("0.10.1", actual.FastQCVersion);
       Assert.True(actual.Passed);
       Assert.AreEqual("s_2_1_sequence.txt.gz", actual.FileName);

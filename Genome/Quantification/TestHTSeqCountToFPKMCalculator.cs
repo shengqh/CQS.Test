@@ -16,9 +16,9 @@ namespace CQS.Genome.Quantification
     {
       var options = new HTSeqCountToFPKMCalculatorOptions()
       {
-        InputFile = "../../data/genetable.tsv",
-        GeneLengthFile = "../../data/genetable.tsv.length",
-        SampleReadsFile = "../../data/genetable.tsv.sample"
+        InputFile = "../../../data/genetable.tsv",
+        GeneLengthFile = "../../../data/genetable.tsv.length",
+        SampleReadsFile = "../../../data/genetable.tsv.sample"
       };
 
       double[] s1;
@@ -38,8 +38,8 @@ namespace CQS.Genome.Quantification
     {
       var options = new HTSeqCountToFPKMCalculatorOptions()
       {
-        InputFile = "../../data/genetable.tsv",
-        GeneLengthFile = "../../data/genetable.tsv.length",
+        InputFile = "../../../data/genetable.tsv",
+        GeneLengthFile = "../../../data/genetable.tsv.length",
       };
 
       double[] s1;

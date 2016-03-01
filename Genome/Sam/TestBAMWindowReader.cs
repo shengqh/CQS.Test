@@ -12,7 +12,7 @@ namespace CQS.Genome.Sam
     [Test]
     public void Test()
     {
-      var bamfile = "../../data/small.bam";
+      var bamfile = "../../../data/small.bam";
       Assert.IsTrue(SAMUtils.IsSortedByCoordinate(bamfile));
 
       var reader = new BAMWindowReader(bamfile);

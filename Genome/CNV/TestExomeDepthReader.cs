@@ -12,7 +12,7 @@ namespace CQS.Genome.CNV
     [Test]
     public void Test()
     {
-      var actual = new ExomeDepthReader().ReadFromFile("../../data/ExomeDepth.tsv");
+      var actual = new ExomeDepthReader().ReadFromFile("../../../data/ExomeDepth.tsv");
       Assert.AreEqual(5, actual.Count);
 
       Assert.AreEqual("1", actual[0].Seqname);

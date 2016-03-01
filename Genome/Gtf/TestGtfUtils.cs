@@ -12,7 +12,7 @@ namespace CQS.Genome.Gtf
     [Test]
     public void Test()
     {
-      var map = GtfUtils.GetGeneIdNameMap("../../data/Homo_sapiens.GRCh37.68.slim.gtf");
+      var map = GtfUtils.GetGeneIdNameMap("../../../data/Homo_sapiens.GRCh37.68.slim.gtf");
       Assert.AreEqual(15, map.Count);
       Assert.AreEqual("BX072566.1", map["ENSG00000237375"]);
       Assert.AreEqual("GART", map["ENSG00000262473"]);

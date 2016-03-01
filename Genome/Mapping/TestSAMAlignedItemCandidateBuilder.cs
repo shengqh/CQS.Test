@@ -12,7 +12,7 @@ namespace CQS.Genome.Sam
   {
     public void TestRead()
     {
-      var filename = @"../../data/01-018-Post_CTTGTA_slim.sam";
+      var filename = @"../../../data/01-018-Post_CTTGTA_slim.sam";
 
       var builder = new SAMAlignedItemCandidateBuilder(1);
 

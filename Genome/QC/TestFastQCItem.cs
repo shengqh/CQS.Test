@@ -12,7 +12,7 @@ namespace CQS.Genome.QC
     [Test]
     public void TestParse()
     {
-      var actual = FastQCItem.ParseFromDirectory("../../data/G1_7143");
+      var actual = FastQCItem.ParseFromDirectory("../../../data/G1_7143");
       Assert.AreEqual("G1_7143", actual.Name);
       Assert.AreEqual(2, actual.Items.Count);
       Assert.AreEqual("s_2_1_sequence;s_2_2_sequence", actual.FileNames);

@@ -14,7 +14,7 @@ namespace CQS.Genome.Pileup
     [Test]
     public void TestParseNoInsertionDeletion()
     {
-      var item = new PileupItemParser(0, 0, true, false, false).GetValue(line);
+      var item = new PileupItemParser(0, 0, true, false, false, 3).GetValue(line);
       Assert.IsNotNull(item);
       Assert.AreEqual(7, item.Samples[0].Count);
       
@@ -98,7 +98,7 @@ namespace CQS.Genome.Pileup
     [Test]
     public void TestParseInsertionDeletion()
     {
-      var item = new PileupItemParser(0, 0, false, false, false).GetValue(line);
+      var item = new PileupItemParser(0, 0, false, false, false, 3).GetValue(line);
       Assert.IsNotNull(item);
       Assert.AreEqual(11, item.Samples[0].Count);
 
@@ -130,14 +130,14 @@ namespace CQS.Genome.Pileup
     [Test]
     public void TestParseFilterByCount()
     {
-      var item = new PileupItemParser(5, 0, false, false, false).GetValue(line);
+      var item = new PileupItemParser(5, 0, false, false, false, 3).GetValue(line);
       Assert.IsNull(item);
     }
 
     [Test]
     public void TestParseFilterByBaseMappingQuality()
     {
-      var item = new PileupItemParser(0, 25, true, true, false).GetValue(line);
+      var item = new PileupItemParser(0, 25, true, true, false, 3).GetValue(line);
       Assert.IsNotNull(item);
       Assert.AreEqual(4, item.Samples[0].Count);
       Assert.AreEqual(27, item.Samples[0][0].Score);
@@ -153,7 +153,7 @@ namespace CQS.Genome.Pileup
     [Test]
     public void TestErrorLine()
     {
-      var parser = new PileupItemParser(0, 0, true, true, false);
+      var parser = new PileupItemParser(0, 0, true, true, false, 3);
 
       var errorline = "3\t383725\tT\t27\t....,.,..,.,..,,,........^S,^S,\tIFJI<EHGIHF>GIIHGEIIGH=D@GA\t0\t\t";
       var item = parser.GetValue(errorline);
@@ -167,13 +167,11 @@ namespace CQS.Genome.Pileup
     [Test]
     public void TestErrorLine2()
     {
-      var parser = new PileupItemParser(0, 0, true, true, false);
+      var parser = new PileupItemParser(0, 0, true, true, false, 3);
 
       var errorline = "4\t86101\tG\t47\t,+1c,+1c,+1c.+1C.+1C,+1c..+1C.+1C.+1C,+1c.+1C,+1c.+1C.+1C$.+1C.+1C,+1c.+1C.+1C.+1C,+1c.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C,+1c.+1C.+1C.+1C.+1C,+1c,+1c,+1c.+1C,+1c,+1c,+1c.+1C.+1C^H,+1c\tBCDCDBDEECBCB?CCEDCECCC>?CA@3CCDACCC>>DBDAA?>@.\t37\t,+1c.+1C,+1c.+1C,+1c.+1C,+1c.+1C.+1C.+1C.+1C.+1C$,,.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C.+1C,+1c.+1C,+1c,+1c,+1c,+1c,+1c,+1c.+1C,+1c,+1c,+1c,+1c.+1C\tDCC;>DDC?CD3DD<D5DA=;?DF??BCB<6E=546>";
       var item = parser.GetValue(errorline);
       Assert.AreEqual(2, item.Samples.Count);
     }
-
-    
   }
 }

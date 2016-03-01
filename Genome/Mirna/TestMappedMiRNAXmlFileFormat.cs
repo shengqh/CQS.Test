@@ -15,7 +15,7 @@ namespace CQS.Genome.Mirna
     [Test]
     public void TestReadWrite()
     {
-      var oldfile = @"../../data/2570-KCV-01-19.bam.count.mapped.xml";
+      var oldfile = @"../../../data/2570-KCV-01-19.bam.count.mapped.xml";
 
       var mirnas = format.ReadFromFile(oldfile);
       Assert.AreEqual(347, mirnas.Count);

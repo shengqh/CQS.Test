@@ -15,7 +15,7 @@ namespace CQS.Genome.Sam
     {
       var qry = "TCCTGTACTGAGCTGCCCCGAGA";
 
-      var locNoMutation = new SamAlignedLocation(null)
+      var locNoMutation = new SAMAlignedLocation(null)
       {
         Strand = '+',
         NumberOfMismatch = 0,
@@ -24,7 +24,7 @@ namespace CQS.Genome.Sam
 
       Assert.IsNull(locNoMutation.GetNotGsnapMismatch(qry));
 
-      var locPositive = new SamAlignedLocation(null)
+      var locPositive = new SAMAlignedLocation(null)
       {
         Strand = '+',
         NumberOfMismatch = 1,
@@ -36,7 +36,7 @@ namespace CQS.Genome.Sam
       Assert.AreEqual('C', retPositive.RefAllele);
       Assert.AreEqual('A', retPositive.SampleAllele);
 
-      var locNegative = new SamAlignedLocation(null)
+      var locNegative = new SAMAlignedLocation(null)
       {
         Strand = '-',
         NumberOfMismatch = 1,
@@ -54,7 +54,7 @@ namespace CQS.Genome.Sam
     {
       var qry = "GTTTCTGTAGTGTAGTGGTTATCACGTTCGCCT";
 
-      var sloc = new SamAlignedLocation(new SAMAlignedItem()
+      var sloc = new SAMAlignedLocation(new SAMAlignedItem()
       {
         Sequence = qry
       })

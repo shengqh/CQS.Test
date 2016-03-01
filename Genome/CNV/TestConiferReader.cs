@@ -12,7 +12,7 @@ namespace CQS.Genome.CNV
     [Test]
     public void Test()
     {
-      var actual = new ConiferReader().ReadFromFile("../../data/conifer.txt");
+      var actual = new ConiferReader().ReadFromFile("../../../data/conifer.txt");
       Assert.AreEqual(15, actual.Count);
 
       Assert.AreEqual("2110_JP_06", actual[0].FileName);

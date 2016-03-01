@@ -13,7 +13,7 @@ namespace CQS.GroSeq
     [Test]
     public void TestCalculate()
     {
-      Assert.AreEqual(0.5314685, new PearsonCorrelationCalculator().Calculate("../../data/pearson.data"), 0.0000001);
+      Assert.AreEqual(0.5314685, new PearsonCorrelationCalculator().Calculate("../../../data/pearson.data"), 0.0000001);
     }
   }
 }

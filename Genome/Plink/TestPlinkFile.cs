@@ -15,13 +15,13 @@ namespace CQS.Genome.Plink
     [Test]
     public void TestReadFromBedFile()
     {
-      Validate(new PlinkBedFile().ReadFromFile("../../data/plink/plink.bed"));
+      Validate(new PlinkBedFile().ReadFromFile("../../../data/plink/plink.bed"));
     }
 
     [Test]
     public void TestReadFromPedFile()
     {
-      Validate(new PlinkPedFile().ReadFromFile("../../data/plink/plink.ped"));
+      Validate(new PlinkPedFile().ReadFromFile("../../../data/plink/plink.ped"));
     }
 
     private static void Validate(PlinkData data)

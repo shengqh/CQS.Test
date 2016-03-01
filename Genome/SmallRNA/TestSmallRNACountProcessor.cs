@@ -18,7 +18,7 @@ namespace CQS.Genome.SmallRNA
       var proc = new SmallRNACountProcessor(new SmallRNACountProcessorOptions() { });
 
       var floc = new FeatureLocation() { };
-      var sloc = new SamAlignedLocation(null) { };
+      var sloc = new SAMAlignedLocation(null) { };
 
       var actual = proc.CheckNoPenaltyMutation(floc, sloc, 1);
     }

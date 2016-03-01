@@ -13,7 +13,7 @@ namespace CQS.Genome.QC
     [Test]
     public void TestMethod()
     {
-      var item = new SamToolsStatItemReader().ReadFromFile(@"../../data/2476-JP-01.bam.stat");
+      var item = new SamToolsStatItemReader().ReadFromFile(@"../../../data/2476-JP-01.bam.stat");
       Assert.AreEqual(122383979, item.Total);
       Assert.AreEqual(0, item.Duplicates);
       Assert.AreEqual(122092264, item.Mapped);

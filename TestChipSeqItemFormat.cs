@@ -10,7 +10,7 @@ namespace CQS
     public void TestRead()
     {
       var format = new ChipSeqItemFormat();
-      List<ChipSeqItem> items = format.ReadFromFile("../../data/ChipSeqComparisonResult.tsv");
+      List<ChipSeqItem> items = format.ReadFromFile("../../../data/ChipSeqComparisonResult.tsv");
       Assert.AreEqual(2029, items.Count);
       Assert.AreEqual("chrI", items[0].Chromosome);
       Assert.AreEqual(151, items[0].Start);

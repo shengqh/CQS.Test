@@ -35,7 +35,7 @@ namespace CQS.Statistics
     {
       var mat = new[,] { { 14, 0 }, { 14, 5 } };
 
-      Assert.AreEqual(0.00008, new BinaryContingencyTable(mat).FisherExactTest().Statistic, 0.00001);
+      Assert.AreEqual(0.0574, new BinaryContingencyTable(mat).FisherExactTest().Statistic, 0.0001);
     }
 
   }

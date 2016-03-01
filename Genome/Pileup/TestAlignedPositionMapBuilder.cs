@@ -14,13 +14,13 @@ namespace CQS.Genome.Pileup
     {
       var options = new AlignedPositionMapBuilderOptions();
       options.MinimumReadQuality = 255;
-      var builder = new AlignedPositionMapBuilder(options, "../../data/small_2.sam");
+      var builder = new AlignedPositionMapBuilder(options, "../../../data/small_2.sam");
       var item = builder.Next();
       //the maximum MapQ is 50, so no reads passed the criteria
       Assert.IsNull(item);
 
       options.MinimumReadQuality = 5;
-      builder = new AlignedPositionMapBuilder(options, "../../data/small_2.sam");
+      builder = new AlignedPositionMapBuilder(options, "../../../data/small_2.sam");
       item = builder.Next();
       Assert.IsNotNull(item);
     }
@@ -30,7 +30,7 @@ namespace CQS.Genome.Pileup
     {
       var options = new AlignedPositionMapBuilderOptions();
       options.MinimumReadQuality = 5;
-      var builder = new AlignedPositionMapBuilder(options, "../../data/small_2.sam");
+      var builder = new AlignedPositionMapBuilder(options, "../../../data/small_2.sam");
 
       AlignedPositionMap item;
       while ((item = builder.Next()) != null)

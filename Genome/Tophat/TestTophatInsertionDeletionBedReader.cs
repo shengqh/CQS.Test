@@ -13,7 +13,7 @@ namespace CQS.Genome.Tophat
     [Test]
     public void TestRead()
     {
-      var lst = new BedItemFile<InsertionDeletionItem>().ReadFromFile(@"../../data/tophat_deletions.bed");
+      var lst = new BedItemFile<InsertionDeletionItem>().ReadFromFile(@"../../../data/tophat_deletions.bed");
       Assert.AreEqual(12, lst.Count);
 
       Assert.AreEqual("1", lst[0].Seqname);

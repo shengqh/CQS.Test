@@ -12,7 +12,7 @@ namespace CQS.Genome.CNV
     [Test]
     public void Test()
     {
-      var actual = new FreecReader().ReadFromFile("../../data/freec.call");
+      var actual = new FreecReader().ReadFromFile("../../../data/freec.call");
       Assert.AreEqual(15, actual.Count);
 
       Assert.AreEqual("1", actual[0].Seqname);

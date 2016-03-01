@@ -13,7 +13,7 @@ namespace CQS.GroSeq
     public void TestRead()
     {
       var format = new PeakAnnotationItemFormat();
-      var items = format.ReadFromFile("../../data/annotation-mergedpeaks-corrected-forscript.txt");
+      var items = format.ReadFromFile("../../../data/annotation-mergedpeaks-corrected-forscript.txt");
       Assert.AreEqual(6, items.Count);
       Assert.AreEqual("macs-mtgr1-eto2-1094", items[0].PeakId);
       Assert.AreEqual("chr3", items[0].Chromosome);

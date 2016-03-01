@@ -12,7 +12,7 @@ namespace CQS.Genome.Tophat
     [Test]
     public void TestRead()
     {
-      var lst = new TophatJunctionBedReader().ReadFromFile(@"../../data/junctions.bed");
+      var lst = new TophatJunctionBedReader().ReadFromFile(@"../../../data/junctions.bed");
       Assert.AreEqual(5, lst.Count);
       Assert.AreEqual("1", lst[0].Chr);
       Assert.AreEqual("JUNC00000001", lst[0].Name);

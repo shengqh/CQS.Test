@@ -12,7 +12,7 @@ namespace CQS.Genome.Annotation
     [Test]
     public void TestRead()
     {
-      var items = new AnnovarVariantItemReader().ReadFromFile("../../data/annovar.variant_function");
+      var items = new AnnovarVariantItemReader().ReadFromFile("../../../data/annovar.variant_function");
       Assert.AreEqual(5, items.Count);
       Assert.AreEqual("intergenic", items[0].VariantType);
       Assert.AreEqual("OR4F3(dist=196024),OR4F3(dist=56475)", items[0].VariantAnnotation);

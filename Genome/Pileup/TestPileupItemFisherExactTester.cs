@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace CQS.Genome.Pileup
 {
@@ -12,7 +8,7 @@ namespace CQS.Genome.Pileup
     [Test]
     public void Test()
     {
-      var item = new PileupItemFile().ReadFromFile("../../data/1_17716_G.wsm");
+      var item = new PileupItemFile().ReadFromFile("../../../data/1_17716_G.wsm");
 
       Assert.AreEqual(8.20E-05, item.InitializeTable().CalculateTwoTailPValue(), 0.0000001);
 

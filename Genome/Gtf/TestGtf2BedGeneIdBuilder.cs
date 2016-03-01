@@ -14,7 +14,7 @@ namespace CQS.Genome.Gtf
     {
       var options = new Gtf2BedGeneIdBuilderOptions()
       {
-        InputFile = "../../data/ENSMUSG00000089726.gtf"
+        InputFile = "../../../data/ENSMUSG00000089726.gtf"
       };
 
       var map = new Gtf2BedGeneIdBuilder(options).ReadBedItems();

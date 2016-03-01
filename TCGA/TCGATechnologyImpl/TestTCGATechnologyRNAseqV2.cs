@@ -13,7 +13,7 @@ namespace CQS.TCGA.TCGATechnologyImpl
     [Test]
     public void TestReader()
     {
-      var actual = new TCGATechnologyRNAseqV2().GetReader().ReadFromFile("../../data/unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196451.rsem.genes.normalized_results");
+      var actual = new TCGATechnologyRNAseqV2().GetReader().ReadFromFile("../../../data/unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196451.rsem.genes.normalized_results");
       Assert.AreEqual(20501, actual.Values.Count);
       Assert.AreEqual("A1BG", actual.Values.First().Name);
       Assert.AreEqual(23.6080, actual.Values.First().Value, 0.0001);
@@ -25,10 +25,10 @@ namespace CQS.TCGA.TCGATechnologyImpl
     [Test]
     public void TestGetFilename()
     {
-      var actual = new TCGATechnologyRNAseqV2().GetCountFilename("../../data/unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196451.rsem.genes.normalized_results");
+      var actual = new TCGATechnologyRNAseqV2().GetCountFilename("../../../data/unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196451.rsem.genes.normalized_results");
       Assert.AreEqual("unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196417.rsem.genes.results", Path.GetFileName(actual));
 
-      actual = new TCGATechnologyRNAseqV2().GetCountFilename("../../data/unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196452.rsem.isoforms.normalized_results");
+      actual = new TCGATechnologyRNAseqV2().GetCountFilename("../../../data/unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196452.rsem.isoforms.normalized_results");
       Assert.AreEqual("unc.edu.37d223e3-aa7e-41dc-b530-bd3c8365ddd5.1196418.rsem.isoforms.results", Path.GetFileName(actual));
     }
   }

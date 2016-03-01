@@ -1,4 +1,4 @@
-chr	start	end	major_allele	minor_allele	ref_allele	NORMAL_major_count	NORMAL_minor_count	TUMOR_major_count	TUMOR_minor_count	fisher_group	fisher_normal	brglm_converged	brglm_group	brglm_score	brglm_strand	brglm_position	brglm_group_fdr	filter	Identity
+chr	start	end	major_allele	minor_allele	ref_allele	normal_major_count	normal_minor_count	tumor_major_count	tumor_minor_count	fisher_group	fisher_normal	brglm_converged	brglm_group	brglm_score	brglm_strand	brglm_position	brglm_group_fdr	filter	Identity
 1	37568524	37568524	A	G	a	14	0	7	5	0.0120401337792642	1	TRUE	0.0559533239203086				0.0891174471997679	GLM_FDR	1_37568524_a_A_G_14_0_7_5_1.2E-02
 1	39750494	39750494	G	A	G	68	0	51	39	3.06925380431902e-12	1	TRUE	0.00053246724605115	0.0299287653371069	0.244258270191453	0.294131597230745	0.00358665478798971	PASS	1_39750494_G_G_A_68_0_51_39_3.1E-12
 1	63018692	63018692	T	A	T	66	0	52	6	0.00906406455875472	1	TRUE	0.0601729474786827				0.0891174471997679	GLM_FDR	1_63018692_T_T_A_66_0_52_6_9.1E-03

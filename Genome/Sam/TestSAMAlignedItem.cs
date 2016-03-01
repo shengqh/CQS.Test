@@ -13,7 +13,7 @@ namespace CQS.Genome.Sam
     public void TestGetGetSequences()
     {
       SAMAlignedItem item = new SAMAlignedItem();
-      item.AddLocation(new SamAlignedLocation(item)
+      item.AddLocation(new SAMAlignedLocation(item)
       {
         Cigar = "5S18M2D19M5S",
         Start = 39979942,

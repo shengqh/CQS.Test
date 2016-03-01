@@ -9,7 +9,7 @@ namespace CQS.Genome.Dbsnp
   [TestFixture]
   public class TestDbsnpVcfFile
   {
-    string datafile = "../../data/dbsnp.vcf";
+    string datafile = "../../../data/dbsnp.vcf";
 
     [Test]
     public void TestConstruction1()

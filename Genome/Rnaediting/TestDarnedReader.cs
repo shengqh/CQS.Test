@@ -12,7 +12,7 @@ namespace CQS.Genome.Rnaediting
     [Test]
     public void Test()
     {
-      var datafile = "../../data/darned_rnaediting.txt";
+      var datafile = "../../../data/darned_rnaediting.txt";
       var data = new DarnedReader().ReadFromFile(datafile);
       Assert.AreEqual(57, data.Count);
       Assert.AreEqual("4", data[0].Chrom);

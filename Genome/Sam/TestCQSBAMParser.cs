@@ -26,7 +26,7 @@ namespace CQS.Genome.Sam
 
     public void RunTest(Func<string, dynamic> get1, Func<string, string, dynamic> get2)
     {
-      var file = "../../data/2562-JP-1.small.bam";
+      var file = "../../../data/2562-JP-1.small.bam";
 
       int minMapQ = 50;
       using (var parser = get1(file))

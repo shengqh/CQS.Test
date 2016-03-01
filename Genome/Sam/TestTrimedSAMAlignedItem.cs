@@ -12,8 +12,8 @@ namespace CQS.Genome.Sam
   {
     public void TestFill()
     {
-      var samfile = @"../../data/01-018-Post_CTTGTA_slim.sam";
-      var fastqfile = @"../../data/01-018-Post_CTTGTA_slim.fastq";
+      var samfile = @"../../../data/01-018-Post_CTTGTA_slim.sam";
+      var fastqfile = @"../../../data/01-018-Post_CTTGTA_slim.fastq";
 
       var builder = new SAMAlignedItemCandidateBuilder(1);
 

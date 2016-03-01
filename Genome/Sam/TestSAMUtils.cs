@@ -12,7 +12,7 @@ namespace CQS.Genome.Sam
     [Test]
     public void TestGetChromosomes()
     {
-      var chrs = SAMUtils.GetChromosomes("../../data/small.bam");
+      var chrs = SAMUtils.GetChromosomes("../../../data/small.bam");
       Assert.IsNotNull(chrs);
       Assert.AreEqual(66, chrs.Count);
       Assert.AreEqual("chr1", chrs.First());

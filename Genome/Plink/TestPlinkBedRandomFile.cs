@@ -16,10 +16,10 @@ namespace CQS.Genome.Plink
     public void TestMethod()
     {
       var file = new PlinkBedRandomFile();
-      file.OpenBinaryFile("../../data/plink/plinknew.bed");
+      file.OpenBinaryFile("../../../data/plink/plink.bed");
       try
       {
-        var data = file.Read("rs168753");
+        var data = file.Read("RS168753");
 
         Assert.IsTrue(data[0, 0]);
         Assert.IsFalse(data[0, 1]);
@@ -33,7 +33,7 @@ namespace CQS.Genome.Plink
         Assert.IsTrue(data[1, 3]);
         Assert.IsTrue(data[1, 4]);
 
-        data = file.Read("rs11267092");
+        data = file.Read("RS11267092");
 
         Assert.IsTrue(data[0, 0]);
         Assert.IsFalse(data[0, 1]);

@@ -12,7 +12,7 @@ namespace CQS.Genome.QC
     [Test]
     public void Test()
     {
-      var items = new RNASeQCItemReader().ReadFromFile("../../data/rnaseqc_metrics.tsv");
+      var items = new RNASeQCItemReader().ReadFromFile("../../../data/rnaseqc_metrics.tsv");
       Assert.AreEqual(19, items.Count);
       Assert.AreEqual("G1_7071", items[0].Sample);
       Assert.AreEqual(2437915, items[0].AlternativeAlignments);

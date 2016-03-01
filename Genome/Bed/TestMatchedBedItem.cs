@@ -41,7 +41,7 @@ namespace CQS.Genome.Bed
     [Test]
     public void TestMergeExon2()
     {
-      string filename = "../../data/match.tsv";
+      string filename = "../../../data/match.tsv";
       var item = new MatchedBedItemFile(filename).Next();
       Assert.AreEqual(3, item.Exons.Count);
       item.MergeExon();

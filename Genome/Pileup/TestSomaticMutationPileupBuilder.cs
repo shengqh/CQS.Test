@@ -13,8 +13,8 @@ namespace CQS.Genome.Pileup
     public void Test()
     {
       SomaticMutationPileupBuilderOptions options = new SomaticMutationPileupBuilderOptions ();
-      options.NormalFile = "../../data/small.bam";
-      options.TumorFile = "../../data/small.bam";
+      options.NormalFile = "../../../data/small.bam";
+      options.TumorFile = "../../../data/small.bam";
 
       SomaticMutationPileupBuilder pib = new SomaticMutationPileupBuilder(options);
 

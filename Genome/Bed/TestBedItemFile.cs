@@ -9,7 +9,7 @@ namespace CQS.Genome.Bed
   [TestFixture]
   public class TestBedItemFile
   {
-    public static string filename = "../../data/peaks.slim.bed";
+    public static string filename = "../../../data/peaks.slim.bed";
 
     [Test]
     public void TestReadSlimData()

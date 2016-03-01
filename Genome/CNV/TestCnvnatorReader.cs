@@ -12,7 +12,7 @@ namespace CQS.Genome.CNV
     [Test]
     public void TestRead()
     {
-      var file = "../../data/2110.call";
+      var file = "../../../data/2110.call";
       var items = new CnvnatorReader().ReadFromFile(file);
       Assert.AreEqual(10, items.Count);
       Assert.AreEqual(CNVType.DELETION, items[0].ItemType);

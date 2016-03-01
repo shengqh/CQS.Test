@@ -12,7 +12,7 @@ namespace CQS.Genome.CNV
     [Test]
     public void Test()
     {
-      var actual = new ExomeCopyReader().ReadFromFile("../../data/ExomeCopy.tsv");
+      var actual = new ExomeCopyReader().ReadFromFile("../../../data/ExomeCopy.tsv");
       Assert.AreEqual(5, actual.Count);
 
       Assert.AreEqual("X2110_JP_01", actual[0].FileName);

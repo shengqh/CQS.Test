@@ -13,7 +13,7 @@ namespace CQS.Genome.Tophat
     [Test]
     public void TestRead()
     {
-      var lst = new MutationItemFileReader().ReadFromFile(@"../../data/mutation.txt");
+      var lst = new MutationItemFileReader().ReadFromFile(@"../../../data/mutation.txt");
       Assert.AreEqual(4, lst.Count);
       Assert.AreEqual("19", lst[0].Chr);
       Assert.AreEqual("MED26", lst[0].Gene);

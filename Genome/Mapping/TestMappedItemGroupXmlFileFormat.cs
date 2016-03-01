@@ -12,14 +12,14 @@ namespace CQS.Genome.Mapping
     [Test]
     public void Test()
     {
-      var items = new MappedItemGroupXmlFileFormat().ReadFromFile("../../data/2570-KCV-01-19.bam.count.mapped.trna.xml");
+      var items = new MappedItemGroupXmlFileFormat().ReadFromFile("../../../data/2570-KCV-01-19.bam.count.mapped.trna.xml");
       Assert.AreEqual(310, items.Count);
     }
 
     [Test]
     public void TestXml()
     {
-      var items = new MappedItemGroupXmlFileFormat().ReadFromFile("../../data/mappedgroup.xml");
+      var items = new MappedItemGroupXmlFileFormat().ReadFromFile("../../../data/mappedgroup.xml");
       Assert.AreEqual(2, items.Count);
 
       var query = items.GetQueries();
@@ -38,10 +38,10 @@ namespace CQS.Genome.Mapping
 
       Assert.AreEqual(2, items[0].QueryCount);
 
-      Assert.AreEqual(1.5, items[0].EstimateCount);
+      Assert.AreEqual(1.5, items[0].GetEstimatedCount());
 
       Assert.AreEqual(2, items[1].QueryCount);
-      Assert.AreEqual(0.5, items[1].EstimateCount);
+      Assert.AreEqual(0.5, items[1].GetEstimatedCount());
     }
 
   }

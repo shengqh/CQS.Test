@@ -12,7 +12,7 @@ namespace CQS.Genome.Annotation
     [Test]
     public void Test()
     {
-      var items = new GenebankFormat().ReadFromFile(@"..\..\data\genebank.txt");
+      var items = new GenebankFormat().ReadFromFile(@"../../../data/genebank.txt");
       Assert.AreEqual(2, items.Count);
 
       Assert.AreEqual("CAPM01000001", items[0].Accession);

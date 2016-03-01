@@ -11,7 +11,7 @@ namespace CQS.BreastCancer
   {
     public void TestRead()
     {
-      var samples = new BreastCancerSampleItemFormat("Source Name").ReadFromFile("../../data/E-TABM-158.sdrf.txt");
+      var samples = new BreastCancerSampleItemFormat("Source Name").ReadFromFile("../../../data/E-TABM-158.sdrf.txt");
       Assert.AreEqual(130, samples.Count);
       var s = samples[0];
       Assert.AreEqual("A-AFFY-76", s.Platform);
@@ -37,7 +37,7 @@ namespace CQS.BreastCancer
 
     public void TestRead2()
     {
-      var samples = new BreastCancerSampleItemFormat("Source Name").ReadFromFile("../../data/E-MTAB-365.sdrf.txt");
+      var samples = new BreastCancerSampleItemFormat("Source Name").ReadFromFile("../../../data/E-MTAB-365.sdrf.txt");
       Assert.AreEqual(1843, samples.Count);
       var s = samples[1];
       Assert.AreEqual("A-AFFY-44", s.Platform);
