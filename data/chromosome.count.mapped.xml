@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <queries>
+    <query name="NB501087:31:HTGWLBGXX:1:11103:5123:17263" sequence="TCACCGGGTGTAAATCAGC" count="19">
+      <location seqname="cel-miR-39-3p" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:11106:26262:5875" sequence="AAAAGTAATTGCGGTTTTTGC" count="8">
+      <location seqname="hsa-miR-548am-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548au-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548c-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548o-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:11109:17337:16193" sequence="TCACCGGGTGTAAATCAGCTTG" count="236">
+      <location seqname="cel-miR-39-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:11110:14452:10368" sequence="TGAAGGGCCTTTCTAGAGCA" count="3">
+      <location seqname="csi-miR3952" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:11202:4557:19113" sequence="AGGCAAGATGTCGGCATAGCTGA" count="3">
+      <location seqname="dpu-miR-31" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:12104:26148:16966" sequence="TCTGGGCAACAAAGTGAGA" count="6">
+      <location seqname="hsa-miR-1285-3p" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:12106:8898:7049" sequence="CCCACTTCTGACACCA" count="7">
+      <location seqname="bta-miR-2478" start="5" end="20" strand="+" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:13110:18730:10262" sequence="TCACCGGGTGTAAATCAGCT" count="8">
+      <location seqname="cel-miR-39-3p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:13112:7801:15388" sequence="TCTCGGACCAGGCTTCATTCC" count="27">
+      <location seqname="atr-miR166b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="bdi-miR166f" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166h-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166k" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:21108:10379:11424" sequence="GTAGAGCACTGGATGG" count="2">
+      <location seqname="mmu-miR-5108" start="1" end="16" strand="+" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:21112:13668:5159" sequence="TCTCGGACCAGGCTTCATT" count="1">
+      <location seqname="atr-miR166b" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+      <location seqname="bdi-miR166f" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166h-3p" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166k" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166u" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:21305:23137:18029" sequence="TGAGATCATTGTGAAAGCTGATT" count="2">
+      <location seqname="ame-bantam" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" nnpm="0" />
+      <location seqname="dpu-bantam" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" nnpm="0" />
+      <location seqname="isc-bantam" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" nnpm="0" />
+      <location seqname="nvi-bantam" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" nnpm="0" />
+      <location seqname="tca-bantam-3p" start="1" end="23" strand="+" cigar="23M" score="0" mdz="23" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:21310:21248:1984" sequence="AAAAGTAATTGTGGTTTTTGC" count="3">
+      <location seqname="hsa-miR-548ay-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548d-5p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:22107:24745:2623" sequence="CCGACCTTAGCTCAGTTGG" count="6">
+      <location seqname="ptc-miR6478" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:22107:3307:17337" sequence="AAAAGTAATTGCGGTTTTTG" count="3">
+      <location seqname="hsa-miR-548am-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548au-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548c-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548h-3p" start="1" end="20" strand="-" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548o-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548z" start="1" end="20" strand="-" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:22301:23923:19517" sequence="TCCCTGAGACCCTTAACCTG" count="1">
+      <location seqname="aca-miR-125a-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="dre-miR-125a" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="fru-miR-125a" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="ipu-miR-125a" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="oha-miR-125a-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="ola-miR-125a-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="ssa-miR-125b-5p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="tni-miR-125a" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="xtr-miR-125a" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:22302:2852:8727" sequence="TCCGAGTCACGGCACCA" count="1">
+      <location seqname="hsa-miR-4454" start="4" end="20" strand="+" cigar="17M" score="0" mdz="17" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:23106:5546:18618" sequence="TTAGATTCACGCACAAACTCG" count="1">
+      <location seqname="aly-miR403a-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="aly-miR403b-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ath-miR403-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="bna-miR403" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="bra-miR403-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="csi-miR403" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="har-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="hpe-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="htu-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="htu-miR403b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="htu-miR403c" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="htu-miR403d" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="htu-miR403e" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mdm-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mdm-miR403b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mes-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mes-miR403b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ppe-miR403" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ptc-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ptc-miR403b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ptc-miR403c-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ptc-miR403d" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="rco-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="rco-miR403b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="tcc-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="tcc-miR403b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vvi-miR403a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vvi-miR403b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vvi-miR403c" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vvi-miR403d" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vvi-miR403e" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vvi-miR403f" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:2:11201:11881:14755" sequence="TCTGGGCAACAAAGTGAGACC" count="4">
+      <location seqname="hsa-miR-1285-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:2:13205:6502:7494" sequence="ATCTCACTTTGTTGCCCAGG" count="2">
+      <location seqname="hsa-miR-1285-5p" start="2" end="21" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:2:21101:18839:15500" sequence="AAAGTAATTGCGGTTTTTGC" count="4">
+      <location seqname="hsa-miR-548am-5p" start="2" end="21" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548au-5p" start="2" end="21" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548c-5p" start="2" end="21" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+      <location seqname="hsa-miR-548o-5p" start="2" end="21" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:2:21102:17848:18178" sequence="CCCCAGCGGAGTCGCCA" count="1">
+      <location seqname="osa-miR5072" start="6" end="22" strand="+" cigar="17M" score="0" mdz="17" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:2:21311:19681:4481" sequence="TCGATAAACCTCTGCATCCAG" count="6">
+      <location seqname="aau-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="aly-miR162a-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="aly-miR162b-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ath-miR162a-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ath-miR162b-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="bra-miR162-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="cme-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="cpa-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="csi-miR162-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ghr-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="gma-miR162b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="gma-miR162c" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="hpe-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="htu-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="lus-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="lus-miR162b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mdm-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mdm-miR162b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mes-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="mtr-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="nta-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="nta-miR162b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="osa-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="pde-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ppe-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ptc-miR162a" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="ptc-miR162b" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="rco-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="sbi-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="sly-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="stu-miR162a-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="stu-miR162b-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="tcc-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vun-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="vvi-miR162" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:2:22208:2270:2113" sequence="TAAGATCCGGACTACAACAAAG" count="5">
+      <location seqname="ath-miR850" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:3:11602:11410:12409" sequence="TCTGGGCAACAAAGTGAGAC" count="4">
+      <location seqname="hsa-miR-1285-3p" start="1" end="20" strand="+" cigar="20M" score="0" mdz="20" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:3:11608:19048:17682" sequence="CCGTAAACGATGGATACT" count="1">
+      <location seqname="hbr-miR6173" start="3" end="20" strand="+" cigar="18M" score="0" mdz="18" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:3:12403:5717:6380" sequence="ATCCCACTTCTGACAC" count="2">
+      <location seqname="bta-miR-2478" start="3" end="18" strand="+" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+      <location seqname="mmu-miR-3963" start="4" end="19" strand="+" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:3:12411:5684:19920" sequence="TCACGTCGGGTTCACC" count="1">
+      <location seqname="ppt-miR894" start="5" end="20" strand="+" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:4:21604:20138:16362" sequence="CCCACGGTCGGCGCCA" count="1">
+      <location seqname="bdi-miR5054" start="3" end="18" strand="+" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+    </query>
+  </queries>
+  <subjectResult>
+    <subjectGroup>
+      <subject name="cel-miR-39-3p">
+        <region seqname="cel-miR-39-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:11103:5123:17263" loc="cel-miR-39-3p:1-19:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:11109:17337:16193" loc="cel-miR-39-3p:1-22:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:13110:18730:10262" loc="cel-miR-39-3p:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548am-5p">
+        <region seqname="hsa-miR-548am-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:11106:26262:5875" loc="hsa-miR-548am-5p:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:22107:3307:17337" loc="hsa-miR-548am-5p:1-20:+" />
+          <query qname="NB501087:31:HTGWLBGXX:2:21101:18839:15500" loc="hsa-miR-548am-5p:2-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548au-5p">
+        <region seqname="hsa-miR-548au-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:11106:26262:5875" loc="hsa-miR-548au-5p:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:22107:3307:17337" loc="hsa-miR-548au-5p:1-20:+" />
+          <query qname="NB501087:31:HTGWLBGXX:2:21101:18839:15500" loc="hsa-miR-548au-5p:2-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548c-5p">
+        <region seqname="hsa-miR-548c-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:11106:26262:5875" loc="hsa-miR-548c-5p:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:22107:3307:17337" loc="hsa-miR-548c-5p:1-20:+" />
+          <query qname="NB501087:31:HTGWLBGXX:2:21101:18839:15500" loc="hsa-miR-548c-5p:2-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548o-5p">
+        <region seqname="hsa-miR-548o-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:11106:26262:5875" loc="hsa-miR-548o-5p:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:22107:3307:17337" loc="hsa-miR-548o-5p:1-20:+" />
+          <query qname="NB501087:31:HTGWLBGXX:2:21101:18839:15500" loc="hsa-miR-548o-5p:2-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="csi-miR3952">
+        <region seqname="csi-miR3952">
+          <query qname="NB501087:31:HTGWLBGXX:1:11110:14452:10368" loc="csi-miR3952:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="dpu-miR-31">
+        <region seqname="dpu-miR-31">
+          <query qname="NB501087:31:HTGWLBGXX:1:11202:4557:19113" loc="dpu-miR-31:1-23:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-1285-3p">
+        <region seqname="hsa-miR-1285-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:12104:26148:16966" loc="hsa-miR-1285-3p:1-19:+" />
+          <query qname="NB501087:31:HTGWLBGXX:2:11201:11881:14755" loc="hsa-miR-1285-3p:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:3:11602:11410:12409" loc="hsa-miR-1285-3p:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bta-miR-2478">
+        <region seqname="bta-miR-2478">
+          <query qname="NB501087:31:HTGWLBGXX:1:12106:8898:7049" loc="bta-miR-2478:5-20:+" />
+          <query qname="NB501087:31:HTGWLBGXX:3:12403:5717:6380" loc="bta-miR-2478:3-18:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="atr-miR166b">
+        <region seqname="atr-miR166b">
+          <query qname="NB501087:31:HTGWLBGXX:1:13112:7801:15388" loc="atr-miR166b:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" loc="atr-miR166b:1-19:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bdi-miR166f">
+        <region seqname="bdi-miR166f">
+          <query qname="NB501087:31:HTGWLBGXX:1:13112:7801:15388" loc="bdi-miR166f:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" loc="bdi-miR166f:1-19:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR166h-3p">
+        <region seqname="gma-miR166h-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:13112:7801:15388" loc="gma-miR166h-3p:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" loc="gma-miR166h-3p:1-19:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR166k">
+        <region seqname="gma-miR166k">
+          <query qname="NB501087:31:HTGWLBGXX:1:13112:7801:15388" loc="gma-miR166k:1-21:+" />
+          <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" loc="gma-miR166k:1-19:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-5108">
+        <region seqname="mmu-miR-5108">
+          <query qname="NB501087:31:HTGWLBGXX:1:21108:10379:11424" loc="mmu-miR-5108:1-16:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR166u">
+        <region seqname="gma-miR166u">
+          <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" loc="gma-miR166u:1-19:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ame-bantam">
+        <region seqname="ame-bantam">
+          <query qname="NB501087:31:HTGWLBGXX:1:21305:23137:18029" loc="ame-bantam:1-23:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="dpu-bantam">
+        <region seqname="dpu-bantam">
+          <query qname="NB501087:31:HTGWLBGXX:1:21305:23137:18029" loc="dpu-bantam:1-23:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="isc-bantam">
+        <region seqname="isc-bantam">
+          <query qname="NB501087:31:HTGWLBGXX:1:21305:23137:18029" loc="isc-bantam:1-23:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="nvi-bantam">
+        <region seqname="nvi-bantam">
+          <query qname="NB501087:31:HTGWLBGXX:1:21305:23137:18029" loc="nvi-bantam:1-23:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tca-bantam-3p">
+        <region seqname="tca-bantam-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:21305:23137:18029" loc="tca-bantam-3p:1-23:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548ay-5p">
+        <region seqname="hsa-miR-548ay-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:21310:21248:1984" loc="hsa-miR-548ay-5p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548d-5p">
+        <region seqname="hsa-miR-548d-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:21310:21248:1984" loc="hsa-miR-548d-5p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR6478">
+        <region seqname="ptc-miR6478">
+          <query qname="NB501087:31:HTGWLBGXX:1:22107:24745:2623" loc="ptc-miR6478:1-19:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548h-3p">
+        <region seqname="hsa-miR-548h-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:22107:3307:17337" loc="hsa-miR-548h-3p:1-20:-" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-548z">
+        <region seqname="hsa-miR-548z">
+          <query qname="NB501087:31:HTGWLBGXX:1:22107:3307:17337" loc="hsa-miR-548z:1-20:-" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aca-miR-125a-5p">
+        <region seqname="aca-miR-125a-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="aca-miR-125a-5p:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="dre-miR-125a">
+        <region seqname="dre-miR-125a">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="dre-miR-125a:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="fru-miR-125a">
+        <region seqname="fru-miR-125a">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="fru-miR-125a:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ipu-miR-125a">
+        <region seqname="ipu-miR-125a">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="ipu-miR-125a:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="oha-miR-125a-5p">
+        <region seqname="oha-miR-125a-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="oha-miR-125a-5p:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ola-miR-125a-5p">
+        <region seqname="ola-miR-125a-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="ola-miR-125a-5p:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ssa-miR-125b-5p">
+        <region seqname="ssa-miR-125b-5p">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="ssa-miR-125b-5p:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tni-miR-125a">
+        <region seqname="tni-miR-125a">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="tni-miR-125a:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="xtr-miR-125a">
+        <region seqname="xtr-miR-125a">
+          <query qname="NB501087:31:HTGWLBGXX:1:22301:23923:19517" loc="xtr-miR-125a:1-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-4454">
+        <region seqname="hsa-miR-4454">
+          <query qname="NB501087:31:HTGWLBGXX:1:22302:2852:8727" loc="hsa-miR-4454:4-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aly-miR403a-3p">
+        <region seqname="aly-miR403a-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="aly-miR403a-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aly-miR403b-3p">
+        <region seqname="aly-miR403b-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="aly-miR403b-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ath-miR403-3p">
+        <region seqname="ath-miR403-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="ath-miR403-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bna-miR403">
+        <region seqname="bna-miR403">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="bna-miR403:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bra-miR403-3p">
+        <region seqname="bra-miR403-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="bra-miR403-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="csi-miR403">
+        <region seqname="csi-miR403">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="csi-miR403:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="har-miR403a">
+        <region seqname="har-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="har-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hpe-miR403a">
+        <region seqname="hpe-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="hpe-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="htu-miR403a">
+        <region seqname="htu-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="htu-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="htu-miR403b">
+        <region seqname="htu-miR403b">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="htu-miR403b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="htu-miR403c">
+        <region seqname="htu-miR403c">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="htu-miR403c:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="htu-miR403d">
+        <region seqname="htu-miR403d">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="htu-miR403d:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="htu-miR403e">
+        <region seqname="htu-miR403e">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="htu-miR403e:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdm-miR403a">
+        <region seqname="mdm-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="mdm-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdm-miR403b">
+        <region seqname="mdm-miR403b">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="mdm-miR403b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mes-miR403a">
+        <region seqname="mes-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="mes-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mes-miR403b">
+        <region seqname="mes-miR403b">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="mes-miR403b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ppe-miR403">
+        <region seqname="ppe-miR403">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="ppe-miR403:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR403a">
+        <region seqname="ptc-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="ptc-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR403b">
+        <region seqname="ptc-miR403b">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="ptc-miR403b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR403c-3p">
+        <region seqname="ptc-miR403c-3p">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="ptc-miR403c-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR403d">
+        <region seqname="ptc-miR403d">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="ptc-miR403d:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rco-miR403a">
+        <region seqname="rco-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="rco-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rco-miR403b">
+        <region seqname="rco-miR403b">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="rco-miR403b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tcc-miR403a">
+        <region seqname="tcc-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="tcc-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tcc-miR403b">
+        <region seqname="tcc-miR403b">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="tcc-miR403b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR403a">
+        <region seqname="vvi-miR403a">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="vvi-miR403a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR403b">
+        <region seqname="vvi-miR403b">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="vvi-miR403b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR403c">
+        <region seqname="vvi-miR403c">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="vvi-miR403c:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR403d">
+        <region seqname="vvi-miR403d">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="vvi-miR403d:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR403e">
+        <region seqname="vvi-miR403e">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="vvi-miR403e:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR403f">
+        <region seqname="vvi-miR403f">
+          <query qname="NB501087:31:HTGWLBGXX:1:23106:5546:18618" loc="vvi-miR403f:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hsa-miR-1285-5p">
+        <region seqname="hsa-miR-1285-5p">
+          <query qname="NB501087:31:HTGWLBGXX:2:13205:6502:7494" loc="hsa-miR-1285-5p:2-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="osa-miR5072">
+        <region seqname="osa-miR5072">
+          <query qname="NB501087:31:HTGWLBGXX:2:21102:17848:18178" loc="osa-miR5072:6-22:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aau-miR162">
+        <region seqname="aau-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="aau-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aly-miR162a-3p">
+        <region seqname="aly-miR162a-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="aly-miR162a-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aly-miR162b-3p">
+        <region seqname="aly-miR162b-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="aly-miR162b-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ath-miR162a-3p">
+        <region seqname="ath-miR162a-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="ath-miR162a-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ath-miR162b-3p">
+        <region seqname="ath-miR162b-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="ath-miR162b-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bra-miR162-3p">
+        <region seqname="bra-miR162-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="bra-miR162-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cme-miR162">
+        <region seqname="cme-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="cme-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cpa-miR162a">
+        <region seqname="cpa-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="cpa-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="csi-miR162-3p">
+        <region seqname="csi-miR162-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="csi-miR162-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ghr-miR162a">
+        <region seqname="ghr-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="ghr-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR162b">
+        <region seqname="gma-miR162b">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="gma-miR162b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR162c">
+        <region seqname="gma-miR162c">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="gma-miR162c:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hpe-miR162a">
+        <region seqname="hpe-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="hpe-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="htu-miR162a">
+        <region seqname="htu-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="htu-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="lus-miR162a">
+        <region seqname="lus-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="lus-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="lus-miR162b">
+        <region seqname="lus-miR162b">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="lus-miR162b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdm-miR162a">
+        <region seqname="mdm-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="mdm-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mdm-miR162b">
+        <region seqname="mdm-miR162b">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="mdm-miR162b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mes-miR162">
+        <region seqname="mes-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="mes-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mtr-miR162">
+        <region seqname="mtr-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="mtr-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="nta-miR162a">
+        <region seqname="nta-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="nta-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="nta-miR162b">
+        <region seqname="nta-miR162b">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="nta-miR162b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="osa-miR162a">
+        <region seqname="osa-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="osa-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="pde-miR162">
+        <region seqname="pde-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="pde-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ppe-miR162">
+        <region seqname="ppe-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="ppe-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR162a">
+        <region seqname="ptc-miR162a">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="ptc-miR162a:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ptc-miR162b">
+        <region seqname="ptc-miR162b">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="ptc-miR162b:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rco-miR162">
+        <region seqname="rco-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="rco-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="sbi-miR162">
+        <region seqname="sbi-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="sbi-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="sly-miR162">
+        <region seqname="sly-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="sly-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="stu-miR162a-3p">
+        <region seqname="stu-miR162a-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="stu-miR162a-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="stu-miR162b-3p">
+        <region seqname="stu-miR162b-3p">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="stu-miR162b-3p:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tcc-miR162">
+        <region seqname="tcc-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="tcc-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vun-miR162">
+        <region seqname="vun-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="vun-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="vvi-miR162">
+        <region seqname="vvi-miR162">
+          <query qname="NB501087:31:HTGWLBGXX:2:21311:19681:4481" loc="vvi-miR162:1-21:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ath-miR850">
+        <region seqname="ath-miR850">
+          <query qname="NB501087:31:HTGWLBGXX:2:22208:2270:2113" loc="ath-miR850:1-22:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hbr-miR6173">
+        <region seqname="hbr-miR6173">
+          <query qname="NB501087:31:HTGWLBGXX:3:11608:19048:17682" loc="hbr-miR6173:3-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-3963">
+        <region seqname="mmu-miR-3963">
+          <query qname="NB501087:31:HTGWLBGXX:3:12403:5717:6380" loc="mmu-miR-3963:4-19:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ppt-miR894">
+        <region seqname="ppt-miR894">
+          <query qname="NB501087:31:HTGWLBGXX:3:12411:5684:19920" loc="ppt-miR894:5-20:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="bdi-miR5054">
+        <region seqname="bdi-miR5054">
+          <query qname="NB501087:31:HTGWLBGXX:4:21604:20138:16362" loc="bdi-miR5054:3-18:+" />
+        </region>
+      </subject>
+    </subjectGroup>
+  </subjectResult>
+</root>

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using System;
 
 namespace CQS
 {
@@ -26,24 +23,21 @@ namespace CQS
     }
 
     [Test]
-    [ExpectedException("System.ArgumentException")]
     public void TestConstructionException1()
     {
-      new Location(2, 1);
+      Assert.Throws<ArgumentException>(() => new Location(2, 1));
     }
 
     [Test]
-    [ExpectedException("System.ArgumentException")]
     public void TestConstructionException2()
     {
-      new Location("1-2-3");
+      Assert.Throws<ArgumentException>(() => new Location("1-2-3"));
     }
 
     [Test]
-    [ExpectedException("System.ArgumentException")]
     public void TestConstructionException3()
     {
-      new Location("a-b");
+      Assert.Throws<ArgumentException>(() => new Location("a-b"));
     }
 
     [Test]

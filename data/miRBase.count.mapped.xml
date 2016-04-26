@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <queries>
+    <query name="NB501087:55:HTTCCBGXX:2:11103:17445:8649" sequence="TGTGTGTGTGTGTGTGTG" count="1">
+      <location seqname="mmu-miR-466i-5p" start="1" end="18" strand="+" cigar="18M" score="0" mdz="18" nmi="0" nnpm="0" />
+      <location seqname="mmu-miR-466i-5p" start="3" end="20" strand="+" cigar="18M" score="0" mdz="18" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:55:HTTCCBGXX:3:23403:7150:13337" sequence="TGATGATGATGATGATGA" count="1">
+      <location seqname="ath-miR5658" start="2" end="19" strand="+" cigar="18M" score="0" mdz="18" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:55:HTTCCBGXX:4:12604:7198:17713" sequence="TGTATGTGTGTATGTA" count="2">
+      <location seqname="mmu-miR-466m-3p" start="1" end="16" strand="-" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+      <location seqname="rno-miR-466b-2-3p" start="4" end="19" strand="-" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+      <location seqname="rno-miR-466b-4-3p" start="4" end="19" strand="-" cigar="16M" score="0" mdz="16" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:55:HTTCCBGXX:4:22602:14497:14037" sequence="TCAGTCTTTTTCTCTCTCCTAT" count="1">
+      <location seqname="aae-miR-14" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+      <location seqname="api-miR-14" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+      <location seqname="cqu-miR-14" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+      <location seqname="dme-miR-14-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+      <location seqname="hme-miR-14" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+      <location seqname="mse-miR-14" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+      <location seqname="tca-miR-14-3p" start="1" end="22" strand="+" cigar="22M" score="0" mdz="22" nmi="0" nnpm="0" />
+    </query>
+  </queries>
+  <subjectResult>
+    <subjectGroup>
+      <subject name="mmu-miR-466i-5p" />
+      <query qname="NB501087:55:HTTCCBGXX:2:11103:17445:8649" />
+      <query qname="NB501087:55:HTTCCBGXX:2:11103:17445:8649" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mse-miR-14" />
+      <query qname="NB501087:55:HTTCCBGXX:4:22602:14497:14037" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="hme-miR-14" />
+      <query qname="NB501087:55:HTTCCBGXX:4:22602:14497:14037" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="dme-miR-14-3p" />
+      <query qname="NB501087:55:HTTCCBGXX:4:22602:14497:14037" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="cqu-miR-14" />
+      <query qname="NB501087:55:HTTCCBGXX:4:22602:14497:14037" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="api-miR-14" />
+      <query qname="NB501087:55:HTTCCBGXX:4:22602:14497:14037" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="aae-miR-14" />
+      <query qname="NB501087:55:HTTCCBGXX:4:22602:14497:14037" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rno-miR-466b-4-3p" />
+      <query qname="NB501087:55:HTTCCBGXX:4:12604:7198:17713" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="rno-miR-466b-2-3p" />
+      <query qname="NB501087:55:HTTCCBGXX:4:12604:7198:17713" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="mmu-miR-466m-3p" />
+      <query qname="NB501087:55:HTTCCBGXX:4:12604:7198:17713" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="ath-miR5658" />
+      <query qname="NB501087:55:HTTCCBGXX:3:23403:7150:13337" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="tca-miR-14-3p" />
+      <query qname="NB501087:55:HTTCCBGXX:4:22602:14497:14037" />
+    </subjectGroup>
+  </subjectResult>
+</root>

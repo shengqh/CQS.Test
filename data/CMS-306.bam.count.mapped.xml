@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <queries>
+    <query name="NB501087:31:HTGWLBGXX:1:13112:7801:15388" sequence="TCTCGGACCAGGCTTCATTCC" count="27">
+      <location seqname="gma-miR166h-3p" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166k" start="1" end="21" strand="+" cigar="21M" score="0" mdz="21" nmi="0" nnpm="0" />
+    </query>
+    <query name="NB501087:31:HTGWLBGXX:1:21112:13668:5159" sequence="TCTCGGACCAGGCTTCATT" count="1">
+      <location seqname="gma-miR166h-3p" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166k" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+      <location seqname="gma-miR166u" start="1" end="19" strand="+" cigar="19M" score="0" mdz="19" nmi="0" nnpm="0" />
+    </query>
+  </queries>
+  <subjectResult>
+    <subjectGroup>
+      <subject name="gma-miR166k" />
+      <query qname="NB501087:31:HTGWLBGXX:1:13112:7801:15388" />
+      <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR166h-3p" />
+      <query qname="NB501087:31:HTGWLBGXX:1:13112:7801:15388" />
+      <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" />
+    </subjectGroup>
+    <subjectGroup>
+      <subject name="gma-miR166u" />
+      <query qname="NB501087:31:HTGWLBGXX:1:21112:13668:5159" />
+    </subjectGroup>
+  </subjectResult>
+</root>
