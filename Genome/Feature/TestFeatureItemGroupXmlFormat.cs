@@ -29,5 +29,11 @@ namespace CQS.Genome.Feature
     {
       RunTest(new FeatureItemGroupXmlFormat());
     }
+
+    [Test]
+    public void TestHandWriter()
+    {
+      RunTest(new FeatureItemGroupXmlFormatHand());
+    }
   }
 }

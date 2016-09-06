@@ -94,6 +94,7 @@
     <Compile Include="Genome\Bed\TestBedItemFile.cs" />
     <Compile Include="Genome\Bed\TestMatchedBedItem.cs" />
     <Compile Include="Genome\Bed\TestMatchedBedItemFile.cs" />
+    <Compile Include="Genome\CNV\TestCnMOPSCallProcessor.cs" />
     <Compile Include="Genome\CNV\TestExomeDepthReader.cs" />
     <Compile Include="Genome\CNV\TestExomeCopyReader.cs" />
     <Compile Include="Genome\CNV\TestFreecReader.cs" />
@@ -152,6 +153,7 @@
     <Compile Include="Genome\Sam\TestTrimedSAMAlignedItem.cs" />
     <Compile Include="Genome\SmallRNA\TestSmallRNACountProcessor.cs" />
     <Compile Include="Genome\SmallRNA\TestSmallRNACountProcessorOptions.cs" />
+    <Compile Include="Genome\SmallRNA\TestSmallRNAT2CMutationBuilder.cs" />
     <Compile Include="Genome\SmallRNA\TestSmallRNAUtils.cs" />
     <Compile Include="Genome\SomaticMutation\TestFilterItemVcfWriter.cs" />
     <Compile Include="Genome\SomaticMutation\TestFilterItemTextReader.cs" />
