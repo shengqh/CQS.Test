@@ -117,6 +117,7 @@
     <Compile Include="Genome\Gtf\TestGtfUtils.cs" />
     <Compile Include="Genome\Gwas\TestSNPItemUtils.cs" />
     <Compile Include="Genome\Mapping\TestChromosomeCountItemXmlFormat.cs" />
+    <Compile Include="Genome\Mapping\TestChromosomeCountProcessor.cs" />
     <Compile Include="Genome\Mapping\TestChromosomeCountSlimItemXmlFormat.cs" />
     <Compile Include="Genome\Mapping\TestChromosomeCountSlimItemExtension.cs" />
     <Compile Include="Genome\Mapping\TestRegexForChromosomeCountCategory.cs" />
