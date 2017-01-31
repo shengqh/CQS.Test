@@ -106,6 +106,7 @@
     <Compile Include="Genome\Dbsnp\TestDbsnpVcfFile.cs" />
     <Compile Include="Genome\Annotation\TestGenebankFeature.cs" />
     <Compile Include="Genome\Annotation\TestGenebankFormat.cs" />
+    <Compile Include="Genome\Fastq\TestFastqReader.cs" />
     <Compile Include="Genome\Feature\TestFeatureItemGroupXmlFormat.cs" />
     <Compile Include="Genome\Feature\TestGenomeFeature.cs" />
     <Compile Include="Genome\Gsnap\TestSAMAlignedItemCandidateGsnapBuilder.cs" />
@@ -152,7 +153,6 @@
     <Compile Include="Genome\Sam\TestSAMAlignedLocation.cs" />
     <Compile Include="Genome\Sam\TestSAMUtils.cs" />
     <Compile Include="Genome\Sam\TestTrimedSAMAlignedItem.cs" />
-    <Compile Include="Genome\SmallRNA\TestSmallRNACountProcessor.cs" />
     <Compile Include="Genome\SmallRNA\TestSmallRNACountProcessorOptions.cs" />
     <Compile Include="Genome\SmallRNA\TestSmallRNAT2CMutationBuilder.cs" />
     <Compile Include="Genome\SmallRNA\TestSmallRNAUtils.cs" />
