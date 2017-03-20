@@ -93,7 +93,7 @@ namespace CQS.Genome.SmallRNA
     }
 
     [Test]
-    public void TestGetTRNACode()
+    public void TestGetTrnaAnticodon()
     {
       Assert.AreEqual("AlaAGC", SmallRNAUtils.GetTrnaAnticodon("tRNA:tRNA-Ala-AGC-12-3"));
       Assert.AreEqual("GlyGCC", SmallRNAUtils.GetTrnaAnticodon("tRNA:chr2.tRNA36-GlyGCC"));
@@ -102,21 +102,22 @@ namespace CQS.Genome.SmallRNA
       Assert.AreEqual("PseudoTTA", SmallRNAUtils.GetTrnaAnticodon("tRNA:chr4.tRNA5-PseudoTTA"));
       Assert.AreEqual("Pseudo???", SmallRNAUtils.GetTrnaAnticodon("tRNA:chr1.tRNA126-Pseudo???"));
       Assert.AreEqual("SeC(e)TCA", SmallRNAUtils.GetTrnaAnticodon("tRNA:chr19.tRNA8-SeC(e)TCA"));
-      Assert.AreEqual("GlyCCC", SmallRNAUtils.GetTrnaAnticodon("tRNA-Gly-CCC-chr1-16"));
-
+      Assert.AreEqual("GlyCCC", SmallRNAUtils.GetTrnaAnticodon("tRNA:tRNA-Gly-CCC-chr1-16"));
+      Assert.AreEqual("GlnCTG", SmallRNAUtils.GetTrnaAnticodon("tRNA:nmt-tRNA-Gln-CTG-1-1"));
     }
 
     [Test]
-    public void TestGetTRNAAminoacid()
+    public void TestGetTrnaAminoacid()
     {
-      Assert.AreEqual("Ala", SmallRNAUtils.GetTRNAAminoacid("tRNA:tRNA-Ala-AGC-12-3"));
-      Assert.AreEqual("Gla", SmallRNAUtils.GetTRNAAminoacid("tRNA:chr2.tRNA36-GlaGCC"));
-      Assert.AreEqual("iMet", SmallRNAUtils.GetTRNAAminoacid("tRNA:tRNA-iMet-CAT-1-1"));
-      Assert.AreEqual("TV", SmallRNAUtils.GetTRNAAminoacid("tRNA:chrMT.tRNA2-TV"));
-      Assert.AreEqual("Pseudo", SmallRNAUtils.GetTRNAAminoacid("tRNA:chr4.tRNA5-PseudoTTA"));
-      Assert.AreEqual("Pseudo", SmallRNAUtils.GetTRNAAminoacid("tRNA:chr1.tRNA126-Pseudo???"));
-      Assert.AreEqual("SeC(e)", SmallRNAUtils.GetTRNAAminoacid("tRNA:chr19.tRNA8-SeC(e)TCA"));
-      Assert.AreEqual("Gly", SmallRNAUtils.GetTRNAAminoacid("tRNA-Gly-CCC-chr1-16"));
+      Assert.AreEqual("Ala", SmallRNAUtils.GetTrnaAminoacid("tRNA:tRNA-Ala-AGC-12-3"));
+      Assert.AreEqual("Gla", SmallRNAUtils.GetTrnaAminoacid("tRNA:chr2.tRNA36-GlaGCC"));
+      Assert.AreEqual("iMet", SmallRNAUtils.GetTrnaAminoacid("tRNA:tRNA-iMet-CAT-1-1"));
+      Assert.AreEqual("TV", SmallRNAUtils.GetTrnaAminoacid("tRNA:chrMT.tRNA2-TV"));
+      Assert.AreEqual("Pseudo", SmallRNAUtils.GetTrnaAminoacid("tRNA:chr4.tRNA5-PseudoTTA"));
+      Assert.AreEqual("Pseudo", SmallRNAUtils.GetTrnaAminoacid("tRNA:chr1.tRNA126-Pseudo???"));
+      Assert.AreEqual("SeC(e)", SmallRNAUtils.GetTrnaAminoacid("tRNA:chr19.tRNA8-SeC(e)TCA"));
+      Assert.AreEqual("Gly", SmallRNAUtils.GetTrnaAminoacid("tRNA:tRNA-Gly-CCC-chr1-16"));
+      Assert.AreEqual("Gln", SmallRNAUtils.GetTrnaAminoacid("tRNA:nmt-tRNA-Gln-CTG-1-1"));
     }
   }
 }
