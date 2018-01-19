@@ -16,8 +16,8 @@ namespace CQS.Genome.Sam
 
       var builder = new SAMAlignedItemCandidateBuilder(1);
 
-      HashSet<string> totalQueryNames;
-      var items = builder.Build<TrimedSAMAlignedItem>(filename, out totalQueryNames);
+      List<QueryInfo> totalQueries;
+      var items = builder.Build<TrimedSAMAlignedItem>(filename, out totalQueries);
 
       Assert.AreEqual(3, items.Count);
 

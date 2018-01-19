@@ -17,8 +17,8 @@ namespace CQS.Genome.Sam
 
       var builder = new SAMAlignedItemCandidateBuilder(1);
 
-      HashSet<string> totalQueryNames;
-      var items = builder.Build<TrimedSAMAlignedItem>(samfile, out totalQueryNames);
+      List<QueryInfo> totalQueries;
+      var items = builder.Build<TrimedSAMAlignedItem>(samfile, out totalQueries);
 
       items.FillOriginalSequence(fastqfile);
 
